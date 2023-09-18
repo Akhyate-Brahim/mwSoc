@@ -1,6 +1,7 @@
 package server;
 
 import common.Distante;
+import common.Resultat;
 
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
@@ -16,11 +17,15 @@ public class ObjetDistante extends UnicastRemoteObject implements Distante {
     public String echo() throws RemoteException {
         return "echo method!";
     }
+    @Override
+    public Resultat result(int i) throws RemoteException{
+        return new Resultat(i);
+    }
     public static void main(String[] args){
         try{
             Distante d = new ObjetDistante();
             Registry registry = LocateRegistry.getRegistry(1099);
-            registry.rebind("Distante",d);
+            registry.rebind("MonOD",d);
             System.out.println("Distante server is running...");
         } catch (Exception e){
             e.printStackTrace();

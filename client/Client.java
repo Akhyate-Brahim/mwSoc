@@ -10,10 +10,13 @@ import java.util.Scanner;
 public class Client {
     public static void main(String[] args){
         try {
-            Registry registry = LocateRegistry.getRegistry("localhost");
-            Distante d = (Distante) registry.lookup("Distante");
+            Registry registry = LocateRegistry.getRegistry("10.212.108.107",1099);
+            Distante d = (Distante) registry.lookup("MonOD");
             System.out.println("we will execute echo now!\n"+d.echo());
             Scanner scanner =new Scanner(System.in);
+            System.out.println("enter a number : ");
+            int i = scanner.nextInt();
+            System.out.println(d.result(i));
             scanner.close();
         } catch (Exception e){
             e.printStackTrace();
