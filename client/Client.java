@@ -16,7 +16,9 @@ public class Client {
             Scanner scanner =new Scanner(System.in);
             System.out.println("enter a number : ");
             int i = scanner.nextInt();
-            System.out.println(d.result(i,i));
+            System.out.println("enter infoCB : ");
+            String infoCB = scanner.next();
+            System.out.println(d.result(i,infoCB));
             scanner.close();
         } catch (Exception e){
             e.printStackTrace();

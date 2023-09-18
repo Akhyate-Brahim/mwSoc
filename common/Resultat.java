@@ -3,12 +3,12 @@ package common;
 import java.io.Serializable;
 
 public class Resultat implements Serializable {
-    private transient int pin;
+    private transient String infoCB;
 
     private int score;
-    public Resultat(int score,int pin) {
+    public Resultat(int score,String pin) {
         this.score = score;
-        this.pin=pin;
+        this.infoCB=pin;
     }
     public int getScore() {
         return score;
@@ -22,16 +22,16 @@ public class Resultat implements Serializable {
     @Override
     public String toString() {
         return "Resultat {" +
-                "score=" + score +" , pin="+pin+
+                "score=" + score +" , pin="+infoCB+
                 '\'' +
                 '}';
     }
 
-    public int getPin() {
-        return pin;
+    public String getPin() {
+        return infoCB;
     }
 
-    public void setPin(int pin) {
-        this.pin = pin;
+    public void setPin(String pin) {
+        this.infoCB = pin;
     }
 }
