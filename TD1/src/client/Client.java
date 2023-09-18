@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Client {
     public static void main(String[] args){
         try {
-            Registry registry = LocateRegistry.getRegistry("localhost");
+            Registry registry = LocateRegistry.getRegistry("172.20.10.2",1099);
             Distante d = (Distante) registry.lookup("MonOD");
             System.out.println("we will execute echo now!\n"+d.echo());
             Scanner scanner =new Scanner(System.in);
