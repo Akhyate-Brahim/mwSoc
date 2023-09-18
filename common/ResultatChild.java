@@ -1,6 +1,8 @@
 package common;
 
 public class ResultatChild extends Resultat{
+    private static final long serialVersionUID = 1L;
+
     int pin;
 
     public ResultatChild(int score, String infoCB,int pin) {
