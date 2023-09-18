@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f34ae83-5a21-4edd-badf-1136e9fd3738" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Resultat.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/Resultat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/ResultatChild.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/ResultatChild.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/ResultatChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/ResultatChild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Distante.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/common/Distante.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Distante.java" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/common/Distante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Resultat.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/common/Resultat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Resultat.java" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/common/Resultat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/ResultatChild.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/common/ResultatChild.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/ResultatChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/common/ResultatChild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/ObjetDistante.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/server/ObjetDistante.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/ObjetDistante.java" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/server/ObjetDistante.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ibrah/OneDrive/Bureau/MWSOC/mwSockets&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/Users/ibrah/OneDrive/Bureau/MWSOC/mwSockets",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
