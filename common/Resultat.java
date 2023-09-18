@@ -22,16 +22,16 @@ public class Resultat implements Serializable {
     @Override
     public String toString() {
         return "Resultat {" +
-                "score=" + score +" , pin="+infoCB+
+                "score=" + score +" , infoCB="+infoCB+
                 '\'' +
                 '}';
     }
 
-    public String getPin() {
+    public String getInfoCB() {
         return infoCB;
     }
 
-    public void setPin(String pin) {
+    public void setInfoCB(String pin) {
         this.infoCB = pin;
     }
 }

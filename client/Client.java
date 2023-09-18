@@ -18,7 +18,9 @@ public class Client {
             int i = scanner.nextInt();
             System.out.println("enter infoCB : ");
             String infoCB = scanner.next();
-            System.out.println(d.result(i,infoCB));
+            System.out.println("enter pin : ");
+            int pin = scanner.nextInt();
+            System.out.println(d.result(i,infoCB,pin));
             scanner.close();
         } catch (Exception e){
             e.printStackTrace();
