@@ -18,8 +18,8 @@ public class ObjetDistante extends UnicastRemoteObject implements Distante {
         return "echo method!";
     }
     @Override
-    public Resultat result(int i) throws RemoteException{
-        return new Resultat(i);
+    public Resultat result(int i,int pin) throws RemoteException{
+        return new Resultat(i,pin);
     }
     public static void main(String[] args){
         try{
