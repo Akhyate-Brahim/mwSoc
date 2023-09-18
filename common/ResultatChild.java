@@ -20,7 +20,7 @@ public class ResultatChild extends Resultat{
     @Override
     public String toString(){
         String parentString=super.toString();
-        return parentString+"brute value of infoCB is : "+super.getInfoCB()+"\ncodePIN : "+pin;
+        return parentString+"\nbrute value of infoCB is : "+super.getInfoCB()+"\ncodePIN : "+pin;
     }
 
     public int getPin() {

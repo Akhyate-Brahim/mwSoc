@@ -3,7 +3,7 @@ package common;
 import java.io.Serializable;
 
 public class Resultat implements Serializable {
-    private transient String infoCB;
+    private String infoCB;
 
     private int score;
     public Resultat(int score,String pin) {
