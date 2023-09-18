@@ -1,4 +1,7 @@
-import java.rmi.Naming;
+package server;
+
+import common.Distante;
+
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
