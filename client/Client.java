@@ -1,6 +1,7 @@
 package client;
 
 import common.Distante;
+import common.ResultatChild;
 
 import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;
@@ -20,7 +21,12 @@ public class Client {
             String infoCB = scanner.next();
             System.out.println("enter pin : ");
             int pin = scanner.nextInt();
-            System.out.println(d.result(i,infoCB,pin));
+            ResultatChild r = (ResultatChild) d.result(i,infoCB,pin);
+            System.out.println(r);
+            System.out.println("enter new infoCB to be encrypted : ");
+            String infoCBNew = scanner.next();
+            r.setInfoCB(infoCBNew);
+            System.out.println(r);
             scanner.close();
         } catch (Exception e){
             e.printStackTrace();

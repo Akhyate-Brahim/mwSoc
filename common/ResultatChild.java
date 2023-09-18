@@ -2,7 +2,6 @@ package common;
 
 public class ResultatChild extends Resultat{
     private static final long serialVersionUID = 1L;
-
     int pin;
 
     public ResultatChild(int score, String infoCB,int pin) {
@@ -22,7 +21,7 @@ public class ResultatChild extends Resultat{
     @Override
     public String toString(){
         String parentString=super.toString();
-        return parentString+"\nbrute value of infoCB is : "+super.getInfoCB()+"\ncodePIN : "+pin;
+        return parentString+"\ncodePIN : "+pin;
     }
 
     public int getPin() {
