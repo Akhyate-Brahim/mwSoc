@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f34ae83-5a21-4edd-badf-1136e9fd3738" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/client/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Distante.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/common/Distante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Distante.java" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/common/Distante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Resultat.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/common/Resultat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/Resultat.java" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/common/Resultat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/ResultatChild.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/common/ResultatChild.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/ResultatChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/common/ResultatChild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/ObjetDistante.class" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/server/ObjetDistante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/ObjetDistante.java" beforeDir="false" afterPath="$PROJECT_DIR$/TD1/src/server/ObjetDistante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA-RMI/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA-RMI/rmi_diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -38,7 +30,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -51,7 +42,8 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "last_opened_file_path": "C:/Users/ibrah/OneDrive/Bureau/MWSOC/mwSockets",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
