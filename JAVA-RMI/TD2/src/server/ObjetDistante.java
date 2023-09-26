@@ -3,6 +3,7 @@ package server;
 import common.Distante;
 import common.Resultat;
 import common.ResultatChild;
+import common.Service;
 
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
@@ -21,9 +22,14 @@ public class ObjetDistante extends UnicastRemoteObject implements Distante {
     @Override
     public Resultat result(int i,String infoCB,int pin) throws RemoteException{
         ResultatChild r = new ResultatChild(i,infoCB,pin);
-        r.setPin(0000);
         return r;
     }
+    Service service = new ServiceImpl();
+    @Override
+    public Service service() throws RemoteException {
+        return this.service;
+    }
+
     public static void main(String[] args){
         try{
             Distante d = new ObjetDistante();

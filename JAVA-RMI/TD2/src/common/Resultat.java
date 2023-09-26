@@ -7,9 +7,9 @@ public class Resultat implements Serializable {
     private String infoCB;
 
     private int score;
-    public Resultat(int score,String pin) {
+    public Resultat(int score,String infoCB) {
         this.score = score;
-        this.infoCB=pin;
+        this.infoCB=infoCB;
     }
     public int getScore() {
         return score;
@@ -32,7 +32,7 @@ public class Resultat implements Serializable {
         return infoCB;
     }
 
-    public void setInfoCB(String pin) {
-        this.infoCB = pin;
+    public void setInfoCB(String infoCB) {
+        this.infoCB = infoCB;
     }
 }
