@@ -1,0 +1,20 @@
+
+W
+java:S1141_"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8œ’•¾¬1
+W
+java:S1141f"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ž’•¾¬1
+…
+java:S3008"cRename this field "DEFAULT_SERVER_BASE_PORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù•ÓØûÿÿÿÿ8Ô—•¾¬1
+…
+java:S3008"hRename this field "DEFAULT_SERVER_PORT_INCREMENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áˆÿô8Ô—•¾¬1
+v
+java:S3008"TRename this field "MAX_RETRY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å—©ƒþÿÿÿÿ8Ô—•¾¬1
+8
+java:S3626n"Remove this redundant jump.(ûÁÝ…8´˜•¾¬1
+U	java:S106U"9Replace this use of System.out or System.err by a logger.(‚Êñœ8¼˜•¾¬1
+Z	java:S106l"9Replace this use of System.out or System.err by a logger.(Âö÷âúÿÿÿÿ8Ü˜•¾¬1
+Z	java:S106r"9Replace this use of System.out or System.err by a logger.(óèƒ´üÿÿÿÿ8Ü˜•¾¬1
+]	java:S125y"<This block of commented-out lines of code should be removed.( “Êäøÿÿÿÿ8ä˜•¾¬1
+J	java:S108~")Either remove or fill this block of code.(‹Çå½ùÿÿÿÿ8ä˜•¾¬1
+J
+java:S1144Ñ",Remove this unused private "getHost" method.(ËÂú›8š™•¾¬1
