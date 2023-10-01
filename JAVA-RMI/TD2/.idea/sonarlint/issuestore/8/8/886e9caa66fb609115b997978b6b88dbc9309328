@@ -1,0 +1,8 @@
+
+H
+java:S2160	"+Override the "equals" method in this class.(ªÔš8ª»„¼®1
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8±»„¼®1
+e
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(€­íÜüÿÿÿÿ8±»„¼®1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(“´ø¤ÿÿÿÿÿ8²»„¼®1

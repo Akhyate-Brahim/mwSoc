@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34a87e68-a2bf-4687-be6a-730c5807d005" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../rmi-td-long/src/server/io/InputService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rmi-td-long/src/server/io/OutputService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/td-long-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/common/login/ILogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/candidate/Candidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/candidate/Pitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/candidate/TextPitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/candidate/VideoPitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/io/InputService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/io/OutputService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/login/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/main/serverMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../TD2/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TD2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rmi-td-long/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/client/io/InputService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/client/io/OutputService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/client/main/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/authentification/ILogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/authentification/Login$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/authentification/Login$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/authentification/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/candidate/Candidate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/candidate/Pitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/candidate/TextPitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/candidate/VideoPitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/main/serverMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/src/client/main/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rmi-td-long/src/client/main/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/src/server/authentification/ILogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rmi-td-long/src/common/login/ILogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/src/server/authentification/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rmi-td-long/src/server/login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rmi-td-long/src/server/main/serverMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rmi-td-long/src/server/main/serverMain.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2W9ZuezFcQlziBkSAqIGUhacMDA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34a87e68-a2bf-4687-be6a-730c5807d005" name="Changes" comment="" />
+      <created>1696146981330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696146981330</updated>
+      <workItem from="1696146982716" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
