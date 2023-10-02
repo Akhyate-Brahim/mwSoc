@@ -25,6 +25,7 @@ public class AdminApp {
 
             candidateList = (List<Candidate>) in.readObject();
             userList = (List<User>) in.readObject();
+            Candidate.setIdCounter(in.readInt());  // Deserializing the idCounter
             System.out.println("Data has been deserialized");
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
@@ -38,6 +39,7 @@ public class AdminApp {
 
             out.writeObject(candidateList);
             out.writeObject(userList);
+            out.writeInt(Candidate.getIdCounter());
             System.out.println("Data has been serialized");
         } catch (IOException e) {
             e.printStackTrace();
@@ -109,27 +111,18 @@ public class AdminApp {
             System.out.println(candidate);
         }
     }
-    public static void main(String[] args) {
-        AdminApp adminApp = new AdminApp();
 
-        // Adding a new candidate
-        Candidate newCandidate = new Candidate("John", "Doe");
-        adminApp.addCandidate(newCandidate);
+    public Candidate getCandidateByRank(int rank) {
+        return candidateList.stream()
+                .filter(candidate -> candidate.getRank() == rank)
+                .findFirst()
+                .orElse(null);
+    }
 
-        // Adding a new user
-        User newUser = new User(107, "pass107");
-        adminApp.addUser(newUser);
-
-        // Printing updated lists
-        System.out.println("Updated Candidate List: " + adminApp.getCandidateList());
-        System.out.println("Updated User List: " + adminApp.getUserList());
-
-        // Deleting all candidates and users
-        adminApp.deleteAllCandidates();
-        adminApp.deleteAllUsers();
-
-        // Printing updated lists after deletion
-        System.out.println("Updated Candidate List After Deletion: " + adminApp.getCandidateList());
-        System.out.println("Updated User List After Deletion: " + adminApp.getUserList());
+    public User getUserByStudentNumber(int studentNumber) {
+        return userList.stream()
+                .filter(user -> user.getStudentNumber() == studentNumber)
+                .findFirst()
+                .orElse(null);
     }
 }

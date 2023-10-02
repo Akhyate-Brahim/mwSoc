@@ -5,16 +5,21 @@ import com.server.candidate.Candidate;
 
 public class DeleteCandidateCommand implements Command {
     private AdminApp adminApp;
-    private Candidate candidate;
+    private int rank;
 
-    public DeleteCandidateCommand(AdminApp adminApp, Candidate candidate) {
+    public DeleteCandidateCommand(AdminApp adminApp, int rank) {
         this.adminApp = adminApp;
-        this.candidate = candidate;
+        this.rank = rank;
     }
 
     @Override
     public void execute() {
-        adminApp.deleteCandidate(candidate);
-        System.out.println("Candidate deleted: " + candidate);
+        Candidate candidate = adminApp.getCandidateByRank(rank);
+        if (candidate != null) {
+            adminApp.deleteCandidate(candidate);
+            System.out.println("Candidate deleted: " + candidate);
+        } else {
+            System.out.println("Candidate with rank " + rank + " not found.");
+        }
     }
 }

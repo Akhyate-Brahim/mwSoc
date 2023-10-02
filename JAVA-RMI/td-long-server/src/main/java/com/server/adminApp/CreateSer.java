@@ -27,9 +27,11 @@ public class CreateSer {
              ObjectOutputStream out = new ObjectOutputStream(fileOut)) {
             out.writeObject(candidates);
             out.writeObject(users);
+            out.writeInt(Candidate.getIdCounter());  // Add this line to serialize the idCounter
             System.out.println("Serialized data is saved in students.ser");
         } catch (IOException i) {
             i.printStackTrace();
         }
     }
 }
+

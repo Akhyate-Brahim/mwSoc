@@ -3,6 +3,7 @@ package com.server.user;
 import java.io.Serializable;
 
 public class User implements Serializable{
+    private static final long serialVersionUID = 1L;
     private int studentNumber;
     private String password;
 
@@ -29,10 +30,9 @@ public class User implements Serializable{
 
     @Override
     public String toString() {
-        return "User {" +
-                "Student Number=" + studentNumber +
-                ", Password='" + password + '\'' +
-                '}';
+        return String.format("Student Number: %-15d | Password: %-15s",
+                studentNumber, password);
     }
+
 }
 

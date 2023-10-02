@@ -5,16 +5,21 @@ import com.server.user.User;
 
 public class DeleteUserCommand implements Command {
     private AdminApp adminApp;
-    private User user;
+    private int studentNumber;
 
-    public DeleteUserCommand(AdminApp adminApp, User user) {
+    public DeleteUserCommand(AdminApp adminApp, int studentNumber) {
         this.adminApp = adminApp;
-        this.user = user;
+        this.studentNumber = studentNumber;
     }
 
     @Override
     public void execute() {
-        adminApp.deleteUser(user);
-        System.out.println("User deleted: " + user);
+        User user = adminApp.getUserByStudentNumber(studentNumber);
+        if (user != null) {
+            adminApp.deleteUser(user);
+            System.out.println("User deleted: " + user);
+        } else {
+            System.out.println("User with student number " + studentNumber + " not found.");
+        }
     }
 }

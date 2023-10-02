@@ -5,19 +5,16 @@ import com.server.candidate.Candidate;
 
 public class AddCandidateCommand implements Command {
     private AdminApp adminApp;
-    private String firstName;
-    private String lastName;
+    private Candidate candidate;
 
-    public AddCandidateCommand(AdminApp adminApp, String firstName, String lastName) {
+    public AddCandidateCommand(AdminApp adminApp, Candidate candidate) {
         this.adminApp = adminApp;
-        this.firstName = firstName;
-        this.lastName = lastName;
+        this.candidate = candidate;
     }
 
     @Override
     public void execute() {
-        Candidate newCandidate = new Candidate(firstName, lastName);
-        adminApp.addCandidate(newCandidate);
-        System.out.println("Candidate added: " + newCandidate);
+        adminApp.addCandidate(candidate);
+        System.out.println("Candidate added: " + candidate);
     }
 }

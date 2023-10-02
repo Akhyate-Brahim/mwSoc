@@ -3,6 +3,7 @@ import java.io.Serializable;
 import java.util.Optional;
 
 public class Candidate implements Serializable {
+    private static final long serialVersionUID = 1L;
     private static int idCounter = 0;
     private int rank;
     private String firstName;
@@ -13,12 +14,22 @@ public class Candidate implements Serializable {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+
+    public static void setIdCounter(int readInt) {
+        idCounter=readInt;
+    }
+
+    public static int getIdCounter() {
+        return idCounter;
+    }
+
     @Override
     public String toString() {
-        return "Candidate {" +
-                "Rank=" + rank +
-                ", First Name='" + firstName + '\'' +
-                ", Last Name='" + lastName + '\'' +
-                '}';
+        return String.format("Rank: %-5d | First Name: %-15s | Last Name: %-15s",
+                rank, firstName, lastName);
+    }
+
+    public int getRank() {
+        return rank;
     }
 }
