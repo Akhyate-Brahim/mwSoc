@@ -1,10 +1,8 @@
 package com.server.io;
 
-import com.server.candidate.Candidate;
+import com.common.candidate.Candidate;
 import com.server.user.User;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class InputService {

@@ -1,7 +1,7 @@
 package com.server.adminApp;
 
-import com.server.candidate.Candidate;
-import com.server.candidate.CandidateWithPitch;
+import com.common.candidate.Candidate;
+import com.common.candidate.CandidateWithPitch;
 import com.server.user.User;
 
 import java.io.FileOutputStream;

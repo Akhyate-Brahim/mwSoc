@@ -3,7 +3,7 @@ package com.server.main.command;
 import com.server.io.InputService;
 import com.server.io.OutputService;
 import com.server.adminApp.AdminApp;
-import com.server.candidate.Candidate;
+import com.common.candidate.Candidate;
 import com.server.user.User;
 
 public class Menu {

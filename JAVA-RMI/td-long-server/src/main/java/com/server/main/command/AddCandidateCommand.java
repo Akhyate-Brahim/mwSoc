@@ -1,7 +1,7 @@
 package com.server.main.command;
 
 import com.server.adminApp.AdminApp;
-import com.server.candidate.Candidate;
+import com.common.candidate.Candidate;
 
 public class AddCandidateCommand implements Command {
     private AdminApp adminApp;

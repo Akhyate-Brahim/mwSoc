@@ -1,7 +1,32 @@
 
+b
+2src/main/java/com/server/main/command/Command.java,d\3\d3c5053b15f282b08d9bcb097ecd689194f3f479
+i
+9src/main/java/com/server/main/command/AddUserCommand.java,1\d\1d5c0db4cdb744d6badcf90a10feb18972f7ccc1
+u
+Esrc/main/java/com/server/main/command/DeleteAllCandidatesCommand.java,1\2\12ab02ce7df040deb392f29f36ff4140297b88a7
+n
+>src/main/java/com/server/main/command/AddCandidateCommand.java,a\b\ab4c236ed7533d7a7114eb5950995ef4c7279303
+q
+Asrc/main/java/com/server/main/command/DeleteCandidateCommand.java,2\7\2755ac9c61a23d44555736fc7525566c3d876d65
+l
+<src/main/java/com/server/main/command/DeleteUserCommand.java,8\5\85a2d13993d940abf4532d0a2203e17461b9ffe8
+p
+@src/main/java/com/server/main/command/DeleteAllUsersCommand.java,1\4\14a1a12f3890abc5b4fba00e59c12b7144fdee04
+W
+'src/main/java/com/server/user/User.java,d\d\ddf2837499a9453033fe5b4b06430d8964d6fa1c
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+_
+/src/main/java/com/server/main/command/Menu.java,6\0\60a7f4adc1531ba82b76425c9e99771087dae031
+j
+:src/main/java/com/server/main/command/PrintAllCommand.java,0\c\0c653b3a0cddc289a5756820f42aedfcad001287
 Z
 *src/main/java/com/common/login/ILogin.java,5\5\55eeeb57ffaf04244c1086c2211b9e4fc12dedea
+p
+@src/main/java/com/server/exceptions/BadCredentialsException.java,f\a\fa38451bb3726ed0b882f4800299ef6e6fc62597
 Y
 )src/main/java/com/server/login/Login.java,9\c\9c371ab167032abc62cb68913df9c2db422936af
-j
-:src/main/java/com/server/candidate/CandidateWithPitch.java,f\e\fe30bb43a2f6a7e0b2399627ae483fbfd141d397

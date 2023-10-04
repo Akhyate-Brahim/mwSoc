@@ -2,65 +2,140 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34a87e68-a2bf-4687-be6a-730c5807d005" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../rmi-td-long/src/server/io/InputService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rmi-td-long/src/server/io/OutputService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/td-long-client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/common/login/ILogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/candidate/Candidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/candidate/Pitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/candidate/TextPitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/candidate/VideoPitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/io/InputService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/io/OutputService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/login/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/main/serverMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/server/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/td-long-client/com/client/interaction/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/td-long-client/com/client/io/InputService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/td-long-client/com/client/io/OutputService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/td-long-client/com/client/main/ClientMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/td-long-client/com/common/login/IClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/td-long-client/com/common/login/ILogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/client/interaction/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/candidate/CandidateWithPitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/exceptions/BadCredentialsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/login/ClientReadyCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/login/IClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/login/ILogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/vote/IVotingMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/0/c/0c653b3a0cddc289a5756820f42aedfcad001287" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/6/0/60a7f4adc1531ba82b76425c9e99771087dae031" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/d/d/ddf2837499a9453033fe5b4b06430d8964d6fa1c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/f/a/fa38451bb3726ed0b882f4800299ef6e6fc62597" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/candidate/Candidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/exceptions/BadCredentialsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/login/IClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/vote/IVotingMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/vote/VotingMaterial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TD2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../TD2/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TD2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TD2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rmi-td-long/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/client/io/InputService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/client/io/OutputService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/client/main/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/authentification/ILogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/authentification/Login$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/authentification/Login$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/authentification/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/candidate/Candidate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/candidate/Pitch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/candidate/TextPitch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/candidate/VideoPitch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/main/serverMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/out/production/rmi-td-long/server/user/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/src/client/main/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rmi-td-long/src/client/main/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/src/server/authentification/ILogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rmi-td-long/src/common/login/ILogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/src/server/authentification/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rmi-td-long/src/server/login/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rmi-td-long/src/server/main/serverMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rmi-td-long/src/server/main/serverMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/io/InputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/io/InputService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/io/OutputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/io/OutputService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/main/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/main/ClientMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/login/ILogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td-long-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/td-long-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/9/c/9c371ab167032abc62cb68913df9c2db422936af" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/9/c/9c371ab167032abc62cb68913df9c2db422936af" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/f/e/fe30bb43a2f6a7e0b2399627ae483fbfd141d397" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/common/login/ILogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/adminApp/AdminApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/adminApp/CreateSer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/candidate/Candidate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/candidate/CandidateWithPitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/io/InputService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/io/OutputService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/login/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/main/command/AddCandidateCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/main/command/AddUserCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/main/command/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/main/command/DeleteAllCandidatesCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/main/command/DeleteAllUsersCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/main/command/DeleteCandidateCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/main/command/DeleteUserCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/main/command/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/main/command/PrintAllCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/main/serverMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/com/server/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/out/production/td-long-server/students.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/login/ILogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/login/ILogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/adminApp/AdminApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/adminApp/AdminApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/adminApp/CreateSer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/adminApp/CreateSer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/candidate/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/candidate/Candidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/candidate/CandidateWithPitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/candidate/CandidateWithPitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/InputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/InputService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/OutputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/OutputService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/command/AddCandidateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/command/AddCandidateCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/command/DeleteCandidateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/command/DeleteCandidateCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/command/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/command/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/serverMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/serverMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/resources/students.ser" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2W9ZuezFcQlziBkSAqIGUhacMDA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="common.login" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\JAVA-RMI\td-long-client\src\main\java\com" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.client.main.ClientMain" />
+      <module name="td-long-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.client.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClientMain" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,6 +145,10 @@
       <option name="presentableId" value="Default" />
       <updated>1696146981330</updated>
       <workItem from="1696146982716" duration="36000" />
+      <workItem from="1696147076893" duration="660000" />
+      <workItem from="1696362669263" duration="2049000" />
+      <workItem from="1696401813808" duration="2510000" />
+      <workItem from="1696426511102" duration="5618000" />
     </task>
     <servers />
   </component>
@@ -86,5 +165,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
