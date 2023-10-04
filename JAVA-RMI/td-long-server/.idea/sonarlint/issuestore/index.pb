@@ -15,11 +15,6 @@ p
 @src/main/java/com/server/main/command/DeleteAllUsersCommand.java,1\4\14a1a12f3890abc5b4fba00e59c12b7144fdee04
 W
 'src/main/java/com/server/user/User.java,d\d\ddf2837499a9453033fe5b4b06430d8964d6fa1c
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 _
 /src/main/java/com/server/main/command/Menu.java,6\0\60a7f4adc1531ba82b76425c9e99771087dae031
 j
