@@ -27,7 +27,9 @@ public class Candidate implements Serializable {
         return String.format("Rank: %-5d | First Name: %-15s | Last Name: %-15s",
                 rank, firstName, lastName);
     }
-
+    public String getLastName() {
+        return lastName;
+    }
     public int getRank() {
         return rank;
     }

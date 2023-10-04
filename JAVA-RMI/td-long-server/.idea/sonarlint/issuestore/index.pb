@@ -13,15 +13,9 @@ l
 <src/main/java/com/server/main/command/DeleteUserCommand.java,8\5\85a2d13993d940abf4532d0a2203e17461b9ffe8
 p
 @src/main/java/com/server/main/command/DeleteAllUsersCommand.java,1\4\14a1a12f3890abc5b4fba00e59c12b7144fdee04
-W
-'src/main/java/com/server/user/User.java,d\d\ddf2837499a9453033fe5b4b06430d8964d6fa1c
 _
 /src/main/java/com/server/main/command/Menu.java,6\0\60a7f4adc1531ba82b76425c9e99771087dae031
 j
 :src/main/java/com/server/main/command/PrintAllCommand.java,0\c\0c653b3a0cddc289a5756820f42aedfcad001287
-Z
-*src/main/java/com/common/login/ILogin.java,5\5\55eeeb57ffaf04244c1086c2211b9e4fc12dedea
 p
 @src/main/java/com/server/exceptions/BadCredentialsException.java,f\a\fa38451bb3726ed0b882f4800299ef6e6fc62597
-Y
-)src/main/java/com/server/login/Login.java,9\c\9c371ab167032abc62cb68913df9c2db422936af

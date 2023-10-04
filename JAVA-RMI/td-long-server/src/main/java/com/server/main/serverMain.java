@@ -2,12 +2,14 @@ package com.server.main;
 
 import com.common.login.IClient;
 import com.common.login.ILogin;
+import com.common.vote.ICandidateInfo;
 import com.common.vote.IVotingMaterial;
 import com.server.adminApp.AdminApp;
 import com.server.io.InputService;
 import com.server.login.Login;
 import com.server.io.OutputService;
 import com.server.main.command.Menu;
+import com.server.vote.CandidateInfo;
 import com.server.vote.VotingMaterial;
 
 import java.rmi.Remote;
@@ -22,9 +24,11 @@ public class serverMain {
             InputService inputService=new InputService();
             ILogin login = new Login(adminApp);
             IVotingMaterial votingMaterial = new VotingMaterial(adminApp);
+            ICandidateInfo candidateInfo = new CandidateInfo(adminApp);
             Registry registry = LocateRegistry.createRegistry(1099);
             registry.rebind("LOGIN", login);
             registry.rebind("VOTING MATERIAL",votingMaterial);
+            registry.rebind("ICANDIDATEINFO", candidateInfo);
             outputService.serverIsRunning();
             Menu menu = new Menu(adminApp, outputService, inputService);
             menu.display();

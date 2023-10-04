@@ -23,16 +23,6 @@ public class Login extends UnicastRemoteObject implements ILogin {
     }
 
     @Override
-    public boolean authenticate(IClient client) throws RemoteException {
-        return false;
-    }
-
-    @Override
-    public boolean verifyOTP(int studentNumber, String otp) throws RemoteException {
-        return false;
-    }
-
-    @Override
     public IVotingMaterial requestVotingMaterial(IClient client) throws RemoteException, BadCredentialsException {
         int studentNumber = client.getStudentNumber();
         String password = client.getPassword();

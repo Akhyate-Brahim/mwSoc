@@ -32,4 +32,8 @@ public class Candidate implements Serializable {
     public int getRank() {
         return rank;
     }
+
+    public String getLastName() {
+        return lastName;
+    }
 }

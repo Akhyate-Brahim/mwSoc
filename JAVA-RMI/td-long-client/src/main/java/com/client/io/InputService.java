@@ -1,4 +1,6 @@
 package com.client.io;
+import com.common.candidate.Candidate;
+
 import java.util.Scanner;
 
 public class InputService {
@@ -19,4 +21,12 @@ public class InputService {
         System.out.print("Password: ");
         return scanner.nextLine();
     }
+
+    public int getScoreForCandidate(Candidate candidate){
+        System.out.println("whats your score for candidate "+candidate.getLastName()+" : ");
+        int score = scanner.nextInt();
+        scanner.nextLine();
+        return score;
+    }
+
 }

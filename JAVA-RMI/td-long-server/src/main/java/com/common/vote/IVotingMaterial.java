@@ -1,10 +1,15 @@
 package com.common.vote;
 
-import com.common.candidate.Candidate;
+import com.common.exceptions.AlreadyUsedOTPException;
+import com.common.exceptions.IncorrectScoreException;
+
 import java.rmi.Remote;
 import java.rmi.RemoteException;
-import java.util.List;
+import java.util.Map;
 
 public interface IVotingMaterial extends Remote {
-    List<Candidate> getCandidateList() throws RemoteException;
+    String getOTP() throws RemoteException;
+
+    public void castVote(Map<Integer, Integer> candidateScores, String otp)
+            throws RemoteException, AlreadyUsedOTPException, IncorrectScoreException;
 }
