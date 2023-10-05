@@ -2,7 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34a87e68-a2bf-4687-be6a-730c5807d005" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/exceptions/HasAlreadyVotedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/exceptions/HasAlreadyVotedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10883a16b883bf0eb165fb6746da94074e81e45c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11d1d30e5d9680afc0f68150665ad0824c6a8a14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/215d280eeaf4990d4a861e6d109395b39cb8b179" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26a167e566a0daefa815a6d5b31d7d8ede54f035" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3eb237cd600edaa7c0b72cadc0d4727188e08918" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55eeeb57ffaf04244c1086c2211b9e4fc12dedea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/674fa62b7e3ea94bf6f5c69871cb98c5717eb5bb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/806d89aee202684272cbb12c948c1c402c43420f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a66bcb75f4d2a7798f214a8227a718f29650a78c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c39e508e46ee1caba4d3554eacd19fa66a4bbceb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e03affa10ed58c4d3bd8f3d50b13b17a38d4b1ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff740421349fbbe40eb2b6cb39035bdc2eb93f62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/fff4f5b759acb0ec761c00067e5daec9c97bf4fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/io/InputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/io/InputService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/io/OutputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/io/OutputService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/main/ClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/main/ClientMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/vote/IVotingMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/vote/IVotingMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/0/c/0c653b3a0cddc289a5756820f42aedfcad001287" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/2/1/211fd57453d9c6b03befee7655b31f4c2e1a1a60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/2/1/2146569f4dee7aa914f19383f33393ec38e8d360" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/2/1/215d280eeaf4990d4a861e6d109395b39cb8b179" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/2/6/26a167e566a0daefa815a6d5b31d7d8ede54f035" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/3/d/3dc3d2a0b85f0b807759d22557ab7d1c7a815837" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/3/e/3eb237cd600edaa7c0b72cadc0d4727188e08918" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/4/9/49677aabbfaf3ad5b4ef597b692b453328ac30d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/9/c/9c371ab167032abc62cb68913df9c2db422936af" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/b/9/b97c8e2a7234f04234233930ca0f02970ba2e2a0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/c/3/c39e508e46ee1caba4d3554eacd19fa66a4bbceb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/d/d/ddf2837499a9453033fe5b4b06430d8964d6fa1c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/vote/IVotingMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/vote/IVotingMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/serverMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/serverMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/vote/VotingMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/vote/VotingMaterial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +68,17 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Runtime.Targets.Configurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Runtime.Targets.Configurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="common.login" />
@@ -83,6 +121,7 @@
       <workItem from="1696401813808" duration="2510000" />
       <workItem from="1696426511102" duration="15329000" />
       <workItem from="1696484225986" duration="4239000" />
+      <workItem from="1696503850298" duration="6089000" />
     </task>
     <servers />
   </component>

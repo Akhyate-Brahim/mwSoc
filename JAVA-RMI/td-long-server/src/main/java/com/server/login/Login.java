@@ -14,12 +14,15 @@ import java.util.List;
 
 public class Login extends UnicastRemoteObject implements ILogin {
     AdminApp adminApp;
+    IVotingMaterial votingMaterial;
 
     public List<User> getUsers() {
         return adminApp.getUserList();
     }
-    public Login(AdminApp adminApp) throws RemoteException {
+
+    public Login(AdminApp adminApp, IVotingMaterial votingMaterial) throws RemoteException {
         this.adminApp = adminApp;
+        this.votingMaterial = votingMaterial;  // Initialize with the single instance
     }
 
     @Override
@@ -28,7 +31,9 @@ public class Login extends UnicastRemoteObject implements ILogin {
         String password = client.getPassword();
 
         if (isValidUser(studentNumber, password)) {
-            return new VotingMaterial(adminApp);
+            // Ensure the adminApp is set in the votingMaterial before returning
+            ((VotingMaterial) votingMaterial).setAdminApp(adminApp);
+            return votingMaterial;
         } else {
             throw new BadCredentialsException();
         }

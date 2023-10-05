@@ -1,14 +1,14 @@
 
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«ã
->
-java:S1170"!Make this final field static too.(ŞŸ¾é8Š¨­ı®1
-U	java:S106"9Replace this use of System.out or System.err by a logger.(‘Í‰ã8­¢Ê¯1
-U	java:S106 "9Replace this use of System.out or System.err by a logger.(¸íê“8­¢Ê¯1
-U	java:S106+"9Replace this use of System.out or System.err by a logger.(œ°¦¡8°¢Ê¯1
-Z	java:S106."9Replace this use of System.out or System.err by a logger.(µê”ıùÿÿÿÿ8±¢Ê¯1
-Z	java:S106^"9Replace this use of System.out or System.err by a logger.(ıõÛÕøÿÿÿÿ8¶¢Ê¯1
-U	java:S106a"9Replace this use of System.out or System.err by a logger.(àíó“8¶¢Ê¯1
-U	java:S106c"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ8·¢Ê¯1
-U	java:S106i"9Replace this use of System.out or System.err by a logger.(ÓªÊœ8·¢Ê¯1
-Z	java:S106m"9Replace this use of System.out or System.err by a logger.(¢ÆÎøÿÿÿÿ8¸¢Ê¯1
-Z	java:S106o"9Replace this use of System.out or System.err by a logger.(¯ÑªÃùÿÿÿÿ8¸¢Ê¯1
+7
+java:S1170"!Make this final field static too.(ŞŸ¾é
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‘Í‰ã
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(¸íê“
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(œ°¦¡
+S	java:S106."9Replace this use of System.out or System.err by a logger.(µê”ıùÿÿÿÿ
+S	java:S106^"9Replace this use of System.out or System.err by a logger.(ıõÛÕøÿÿÿÿ
+N	java:S106a"9Replace this use of System.out or System.err by a logger.(àíó“
+N	java:S106c"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ
+N	java:S106i"9Replace this use of System.out or System.err by a logger.(ÓªÊœ
+S	java:S106m"9Replace this use of System.out or System.err by a logger.(¢ÆÎøÿÿÿÿ
+S	java:S106o"9Replace this use of System.out or System.err by a logger.(¯ÑªÃùÿÿÿÿ

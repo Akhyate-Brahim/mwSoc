@@ -19,5 +19,21 @@ public class OutputService {
     public void printOTP(String otp){
         System.out.println("your one time password : "+otp);
     }
+
+    public void printVoteSuccess() {
+        System.out.println("Your vote has been successfully cast!");
+    }
+
+    public void printAlreadyVotedError() {
+        System.out.println("You have already voted. You cannot vote more than once.");
+    }
+
+    public void printVotingNotStartedError() {
+        System.out.println("Voting has not started yet. Please wait for the voting to begin.");
+    }
+
+    public void printWaitingForVote() {
+        System.out.println("Waiting for the vote to start...");
+    }
 }
 

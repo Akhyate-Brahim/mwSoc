@@ -24,8 +24,8 @@ public class serverMain {
             AdminApp adminApp = new AdminApp();
             OutputService outputService=new OutputService();
             InputService inputService=new InputService();
-            ILogin login = new Login(adminApp);
             IVotingMaterial votingMaterial = new VotingMaterial(adminApp);
+            ILogin login = new Login(adminApp, votingMaterial);
             ICandidateInfo candidateInfo = new CandidateInfo(adminApp);
             IVoteStatus voteStatus = new VoteStatus();
             Registry registry = LocateRegistry.createRegistry(1099);
