@@ -63,5 +63,14 @@ public class InputService {
     public void close() {
         scanner.close();
     }
+
+    public String startVote() {
+        System.out.println("print \"start\" to begin the vote : ");
+        return scanner.nextLine().trim();
+    }
+    public String endVote(){
+        System.out.println("print \"end\" to begin the vote : ");
+        return scanner.nextLine().trim();
+    }
 }
 

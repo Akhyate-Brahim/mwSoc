@@ -25,19 +25,16 @@ public class Menu {
             choice = inputService.getUserOption();
 
             switch (choice) {
-                case 1:
+                case 0:
                     outputService.printUseSerializedObjects();
                     return;
-                case 2:
+                case 1:
                     modifyDataMenu();
                     break;
-                case 3:
+                case 2:
                     outputService.printAllInformation(adminApp);
                     inputService.waitForEnter();
                     break;
-                case 0:
-                    inputService.close();
-                    return;
                 default:
                     outputService.printInvalidOption();
             }

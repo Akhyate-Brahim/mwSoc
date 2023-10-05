@@ -30,13 +30,9 @@ public class VotingMaterial extends UnicastRemoteObject implements IVotingMateri
     }
 
 
-
+    @Override
     public void castVote(Map<Integer, Integer> candidateScores, String otp)
-            throws RemoteException, AlreadyUsedOTPException, IncorrectScoreException {
-        if (Boolean.TRUE.equals(otpsUsed.getOrDefault(otp, true))) {
-            throw new AlreadyUsedOTPException("This OTP has already been used or is invalid.");
-        }
-
+            throws RemoteException, IncorrectScoreException {
         for (Map.Entry<Integer, Integer> entry : candidateScores.entrySet()) {
             int candidateId = entry.getKey();
             int score = entry.getValue();
@@ -47,6 +43,16 @@ public class VotingMaterial extends UnicastRemoteObject implements IVotingMateri
 
             votes.compute(candidateId, (key, val) -> val == null ? score : val + score);
         }
-        otpsUsed.put(otp, true);  // Marking the OTP as used after casting the vote
+
+        otpsUsed.put(otp, true);
     }
+    @Override
+    public boolean validateOTP(String otp) throws RemoteException, AlreadyUsedOTPException {
+        Boolean otpUsed = otpsUsed.get(otp);
+        if (otpUsed == null || otpUsed) {
+            return false;
+        }
+        return true;
+    }
+
 }

@@ -26,10 +26,9 @@ public class OutputService {
     }
 
     public void printMainMenu() {
-        System.out.println("1. Use existing data");
-        System.out.println("2. Modify data");
-        System.out.println("3. Print all data");
-        System.out.println("0. Exit");
+        System.out.println("0. Use existing data");
+        System.out.println("1. Modify data");
+        System.out.println("2. Print all data");;
     }
 
     public void printModificationMenu() {

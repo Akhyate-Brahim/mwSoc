@@ -8,5 +8,6 @@
   - we create a Login and a VotingMaterial remote objects and rebind them to the registry we created
   - the client here rebinds himself on the registry after locating it
   - the client then looks up our Login object and gets a VotingMaterial object by calling the method requesVotingMaterial on it and passing himself as a paramater. The method checks whether he is a user or not and then returns the voting Material thus the authentification is implicit.
-
+to fix
 ## Vote
+concurrent hashmaps, volatile keyword
