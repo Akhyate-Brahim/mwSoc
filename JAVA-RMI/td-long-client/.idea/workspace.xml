@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34a87e68-a2bf-4687-be6a-730c5807d005" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/vote/IVoteStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/vote/IVoteStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/vote/VoteStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/main/ClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/main/ClientMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/vote/IVotingMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/vote/IVotingMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/0/c/0c653b3a0cddc289a5756820f42aedfcad001287" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/6/0/60a7f4adc1531ba82b76425c9e99771087dae031" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/8/5/85a2d13993d940abf4532d0a2203e17461b9ffe8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/d/3/d3c5053b15f282b08d9bcb097ecd689194f3f479" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/f/a/fa38451bb3726ed0b882f4800299ef6e6fc62597" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/vote/IVotingMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/vote/IVotingMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/InputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/InputService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/OutputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/OutputService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/command/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/command/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/serverMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/serverMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/vote/VotingMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/vote/VotingMaterial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "Runtime.Targets.Configurable"
   }
 }]]></component>
@@ -100,7 +82,7 @@
       <workItem from="1696362669263" duration="2049000" />
       <workItem from="1696401813808" duration="2510000" />
       <workItem from="1696426511102" duration="15329000" />
-      <workItem from="1696484225986" duration="4143000" />
+      <workItem from="1696484225986" duration="4239000" />
     </task>
     <servers />
   </component>
