@@ -2,37 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34a87e68-a2bf-4687-be6a-730c5807d005" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/exceptions/AlreadyUsedOTPException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/exceptions/IncorrectScoreException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/vote/ICandidateInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/exceptions/AlreadyUsedOTPException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/exceptions/IncorrectScoreException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/vote/ICandidateInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/user/OTPCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/vote/CandidateInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/vote/IVoteStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/vote/IVoteStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/vote/VoteStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/td-long-client/com/client/io/InputService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/td-long-client/com/client/io/InputService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/td-long-client/com/client/io/OutputService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/td-long-client/com/client/io/OutputService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/td-long-client/com/client/main/ClientMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/td-long-client/com/client/main/ClientMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/td-long-client/com/common/candidate/Candidate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/td-long-client/com/common/candidate/Candidate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/td-long-client/com/common/login/ClientReadyCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/td-long-client/com/common/login/ILogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/td-long-client/com/common/login/ILogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/td-long-client/com/common/vote/IVotingMaterial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/td-long-client/com/common/vote/IVotingMaterial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/io/InputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/io/InputService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/io/OutputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/io/OutputService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/client/main/ClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/main/ClientMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/candidate/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/candidate/Candidate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/login/ClientReadyCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/login/ILogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/login/ILogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/common/vote/IVotingMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/vote/IVotingMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/5/5/55eeeb57ffaf04244c1086c2211b9e4fc12dedea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/9/c/9c371ab167032abc62cb68913df9c2db422936af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/d/d/ddf2837499a9453033fe5b4b06430d8964d6fa1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/0/c/0c653b3a0cddc289a5756820f42aedfcad001287" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/6/0/60a7f4adc1531ba82b76425c9e99771087dae031" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/8/5/85a2d13993d940abf4532d0a2203e17461b9ffe8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/d/3/d3c5053b15f282b08d9bcb097ecd689194f3f479" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/f/a/fa38451bb3726ed0b882f4800299ef6e6fc62597" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/candidate/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/candidate/Candidate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/login/ILogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/login/ILogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/vote/IVotingMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/vote/IVotingMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/InputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/InputService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/OutputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/OutputService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/command/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/command/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/serverMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/serverMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/vote/VotingMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/vote/VotingMaterial.java" afterDir="false" />
     </list>
@@ -68,7 +55,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "Runtime.Targets.Configurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -80,7 +68,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="ClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientMain" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.client.main.ClientMain" />
       <module name="td-long-client" />
       <extension name="coverage">
@@ -111,7 +99,8 @@
       <workItem from="1696147076893" duration="660000" />
       <workItem from="1696362669263" duration="2049000" />
       <workItem from="1696401813808" duration="2510000" />
-      <workItem from="1696426511102" duration="15211000" />
+      <workItem from="1696426511102" duration="15329000" />
+      <workItem from="1696484225986" duration="4143000" />
     </task>
     <servers />
   </component>

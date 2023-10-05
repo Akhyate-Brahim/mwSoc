@@ -9,6 +9,9 @@ import java.util.Map;
 
 public interface IVotingMaterial extends Remote {
     String getOTP() throws RemoteException;
+
     public void castVote(Map<Integer, Integer> candidateScores, String otp)
-            throws RemoteException, AlreadyUsedOTPException, IncorrectScoreException;
+            throws RemoteException, IncorrectScoreException;
+
+    boolean validateOTP(String otp) throws AlreadyUsedOTPException;
 }
