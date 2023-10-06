@@ -1,0 +1,15 @@
+
+A
+java:S2160"+Override the "equals" method in this class.(×á½”
+E
+java:S1948"*Make "adminApp" transient or serializable.(ş²ë„ùÿÿÿÿ
+I
+java:S1948".Make "voteCallback" transient or serializable.(ô¼ŒÄùÿÿÿÿ
+H
+java:S1948"-Make "votesRecord" transient or serializable.(äğ¬öÿÿÿÿÿ
+Œ
+java:S1130_"qRemove the declaration of thrown exception 'java.rmi.RemoteException', as it cannot be thrown from method's body.(à€È°ıÿÿÿÿ
+h
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Ú¸ÖÉ
+m
+java:S3457’"Q%n should be used in place of \n to produce the platform-specific line separator.(¿æ½‚úÿÿÿÿ

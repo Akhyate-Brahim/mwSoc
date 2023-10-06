@@ -1,30 +1,31 @@
 package com.server.main;
 
-import com.common.login.IClient;
 import com.common.login.ILogin;
 import com.common.vote.ICandidateInfo;
 import com.common.vote.IVoteStatus;
-import com.common.vote.IVotingMaterial;
+import com.common.vote.IVoteManager;
 import com.server.adminApp.AdminApp;
 import com.server.io.InputService;
 import com.server.login.Login;
 import com.server.io.OutputService;
 import com.server.main.command.Menu;
-import com.server.vote.CandidateInfo;
-import com.server.vote.VoteStatus;
-import com.server.vote.VotingMaterial;
+import com.server.vote.*;
 
-import java.rmi.Remote;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
-public class serverMain {
+public class serverMain implements VoteCallback {
+    @Override
+    public void onVoteCast(int studentNumber, String info) {
+        System.out.println("Vote cast by student number " + studentNumber + " at " + info);
+    }
     public static void main(String[] args) {
         try {
             AdminApp adminApp = new AdminApp();
             OutputService outputService=new OutputService();
             InputService inputService=new InputService();
-            IVotingMaterial votingMaterial = new VotingMaterial(adminApp);
+            IVoteManager votingMaterial = new VoteManager(adminApp);
+            ((VoteManager) votingMaterial).setVoteCallback(new serverMain());
             ILogin login = new Login(adminApp, votingMaterial);
             ICandidateInfo candidateInfo = new CandidateInfo(adminApp);
             IVoteStatus voteStatus = new VoteStatus();
@@ -36,13 +37,21 @@ public class serverMain {
             outputService.serverIsRunning();
             Menu menu = new Menu(adminApp, outputService, inputService);
             menu.display();
-            if (inputService.startVote().equalsIgnoreCase("start")) {
-                voteStatus.startVote();
+            outputService.printVoteGuide();
+            while (true) {
+                String command = inputService.getCommand();
+                if (command.equalsIgnoreCase("start")) {
+                    voteStatus.startVote();
+                } else if (command.equalsIgnoreCase("end")) {
+                    voteStatus.endVote();
+                    ((VoteManager) votingMaterial).displayResults(outputService);
+                    inputService.close();
+                    break; //
+                } else {
+                    System.out.println("Unknown command. Type 'start' to begin the vote or 'end' to finish it.");
+                }
+                Thread.sleep(1000);
             }
-            if (inputService.endVote().equalsIgnoreCase("end")) {
-                voteStatus.endVote();
-            }
-            inputService.close();
         }catch(Exception e){
             e.printStackTrace();
         }

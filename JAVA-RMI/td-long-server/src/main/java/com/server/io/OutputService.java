@@ -45,4 +45,14 @@ public class OutputService {
         System.out.println("Invalid option, try again.");
     }
 
+    public void printResult(int rank, int candidateId, int points, double percentage) {
+        System.out.printf("Rank: %d, Candidate ID: %d, Points: %d, Percentage: %.2f%%\n", rank, candidateId, points, percentage);
+    }
+
+    public void printMessage(String s) {
+        System.out.println(s);
+    }
+    public void printVoteGuide(){
+        System.out.print("Enter commands (start/end) to begin or end the vote :  ");
+    }
 }

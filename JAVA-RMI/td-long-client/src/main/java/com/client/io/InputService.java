@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
-import java.util.concurrent.ConcurrentHashMap;
 
 public class InputService {
     private final Scanner scanner;
@@ -35,5 +34,26 @@ public class InputService {
         }
         return candidateScoreMap;
     }
+    public String getPreviousOTP() {
+        System.out.print("Enter your previous OTP to re-vote: ");
+        return scanner.next();
+    }
 
+    public boolean askForRevoting() {
+        System.out.print("Do you want to re-vote? (yes/no): ");
+        return scanner.next().equalsIgnoreCase("yes");
+    }
+    public String enterOTP() {
+        System.out.println("Please enter your OTP:");
+        return scanner.nextLine();
+    }
+    public boolean askForCurrentResults() {
+        System.out.print("\nDo you want to view the current results? (yes/no): ");
+        return scanner.next().equalsIgnoreCase("yes");
+    }
+
+    public boolean askForFinalResults() {
+        System.out.print("\nDo you want to view the final results? (yes/no): ");
+        return scanner.next().equalsIgnoreCase("yes");
+    }
 }

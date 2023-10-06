@@ -1,15 +1,17 @@
 package com.client.main;
 
 import com.client.interaction.Client;
-import com.client.io.*;
-import com.common.login.*;
+import com.client.io.InputService;
+import com.client.io.OutputService;
+import com.common.exceptions.VotingHasEndedException;
+import com.common.login.IClient;
+import com.common.login.ILogin;
 import com.common.vote.ICandidateInfo;
 import com.common.vote.IVoteStatus;
-import com.common.vote.IVotingMaterial;
+import com.common.vote.IVoteManager;
 
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
-import java.util.Map;
 
 public class ClientMain {
 
@@ -23,20 +25,21 @@ public class ClientMain {
             ICandidateInfo candidateInfo = (ICandidateInfo) reg.lookup("ICANDIDATEINFO");
             IVoteStatus voteStatus = (IVoteStatus) reg.lookup("VOTESTATUS");
             outputService.printCandidateList(candidateInfo.getCandidateList());
-
             IClient client = new Client(inputService.getStudentNumber(), inputService.getPassword());
-            reg.rebind("CLIENT", client);
-
-            IVotingMaterial votingMaterial = login.requestVotingMaterial(client);
-            votingMaterial.generateOTP(client.getStudentNumber());
-            outputService.printOTP(votingMaterial.getOTP(client.getStudentNumber()));
-            while (!voteStatus.isVotingStarted()) {
-                outputService.printWaitingForVote();
-                Thread.sleep(5000);
+            IVoteManager voteManager = login.requestVotingMaterial(client);
+            VotingSession votingSession = new VotingSession(client, voteManager, candidateInfo, voteStatus, inputService, outputService);
+            votingSession.executeVotingProcess();
+            if (voteStatus.isVotingStarted() && !voteStatus.isVotingEnded()){
+                if (inputService.askForCurrentResults()){
+                    outputService.printMessage(voteManager.getVotingResults());
+                }
             }
-            Map<Integer, Integer> candidateScores = inputService.getScoreForCandidates(candidateInfo.getCandidateList());
-            votingMaterial.castVote(client.getStudentNumber(), candidateScores, votingMaterial.getOTP(client.getStudentNumber()));
-        } catch (Exception e) {
+            if (voteStatus.isVotingEnded()){
+                if (inputService.askForFinalResults()){
+                    outputService.printMessage(voteManager.getVotingResults());
+                }
+            }
+        } catch (Exception | VotingHasEndedException e) {
             e.printStackTrace();
         }
     }

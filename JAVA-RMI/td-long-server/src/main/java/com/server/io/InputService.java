@@ -24,15 +24,10 @@ public class InputService {
     public User getNewUser() {
         System.out.print("Enter user's student number: ");
         int studentNumber = scanner.nextInt();
-        scanner.nextLine();  // Consume newline left-over
+        scanner.nextLine();
         System.out.print("Enter user's password: ");
         String password = scanner.nextLine();
-        return new User(studentNumber, password); // Create a new user
-    }
-
-    public String getUserResponse() {
-        System.out.print("Your choice: ");
-        return scanner.nextLine().trim();
+        return new User(studentNumber, password);
     }
     public int getUserOption() {
         System.out.print("Select an option: ");
@@ -69,7 +64,10 @@ public class InputService {
         return scanner.nextLine().trim();
     }
     public String endVote(){
-        System.out.println("print \"end\" to begin the vote : ");
+        System.out.println("print \"end\" to end the vote : ");
+        return scanner.nextLine().trim();
+    }
+    public String getCommand() {
         return scanner.nextLine().trim();
     }
 }

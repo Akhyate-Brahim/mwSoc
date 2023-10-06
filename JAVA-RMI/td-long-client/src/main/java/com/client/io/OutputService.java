@@ -35,5 +35,17 @@ public class OutputService {
     public void printWaitingForVote() {
         System.out.println("Waiting for the vote to start...");
     }
+
+    public void printMessage(String s) {
+        System.out.println(s);
+    }
+
+    public void printVotingDone() {
+        System.out.println("the vote is closed");
+    }
+
+    public void printNewOTP(String otp) {
+        System.out.println("here is your new OTP : "+otp);
+    }
 }
 

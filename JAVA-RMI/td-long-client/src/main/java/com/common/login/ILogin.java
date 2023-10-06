@@ -1,11 +1,11 @@
 package com.common.login;
 
-import com.common.vote.IVotingMaterial;
+import com.common.vote.IVoteManager;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 public interface ILogin extends Remote {
 
-    public IVotingMaterial requestVotingMaterial(IClient client) throws RemoteException;
+    public IVoteManager requestVotingMaterial(IClient client) throws RemoteException;
 }

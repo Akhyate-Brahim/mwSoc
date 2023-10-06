@@ -25,3 +25,8 @@ U	java:S106'"9Replace this use of System.out or System.err by a logger.(’ûË·8
 Z	java:S106("9Replace this use of System.out or System.err by a logger.(»…ûíüÿÿÿÿ8·³”¯1
 U	java:S106)"9Replace this use of System.out or System.err by a logger.(Á÷8·³”¯1
 U	java:S106-"9Replace this use of System.out or System.err by a logger.(¸™òê8·³”¯1
+n
+java:S34571"Q%n should be used in place of \n to produce the platform-specific line separator.(í¬½8­ÇÉ®°1
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(í¬½8¬²µ«°1
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8ãÏñ«°1
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(êÌÔ©ûÿÿÿÿ8ô–‘¯°1
