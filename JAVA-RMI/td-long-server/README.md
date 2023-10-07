@@ -1,13 +1,54 @@
-# Rapport - TD long
+# Report - Long TD
 
-## Hard Authentification
+## How to Use the App
+the RMI registry is created inside the server main.
+### Server
+- Start the server
+- Choose to use existing data or modify data
+- Type in "start" to begin the vote
+- Type in "end" to end the vote
 
-- I opted for the hard authentification, using a file with the extension .ser containing all serialized objects for the vote (list of users and candidates), concerning the unique rank of candidates, i serialized it as well along with the list of candidates and users because it needs to be kept and conserved despite restarting sessions so that any added candidate has the proper rank. i also decided to add the ability to modify the serialized file, that will be through deserializing it, modifying the objects that are inside of it, then serializing it again. Now we have the option to modify the data or keep the ones we have initially.
-- i implemented the hard authentification and it's done in the following manner:
-  - the server is started, the admin either chooses to modify existing data or provide his own
-  - we create a Login and a VotingMaterial remote objects and rebind them to the registry we created
-  - the client here rebinds himself on the registry after locating it
-  - the client then looks up our Login object and gets a VotingMaterial object by calling the method requesVotingMaterial on it and passing himself as a paramater. The method checks whether he is a user or not and then returns the voting Material thus the authentification is implicit.
-to fix
-## Vote
-concurrent hashmaps, volatile keyword
+### Client
+#### First Time Voting
+- Type in credentials
+- Wait for the vote to start
+- Receive and confirm your OTP
+- Vote
+
+#### Revote
+- Type in credentials
+- Type in previous OTP
+- Receive new OTP and confirm it
+- Vote
+
+## Choices Made
+
+### Candidate Class
+- Implemented a `CandidateWithPitch` class that extends `Candidate`, includes a String for text pitch or a video URL
+
+### Hard Authentication
+- Opted for hard authentication, utilizing a `.ser` file containing all serialized objects for the vote (lists of users and candidates)
+- Enabled modification of the serialized file through deserialization, object modification, and re-serialization
+- At server start, admin chooses to modify existing data or use initial data
+- Created `Login` and `VoteManager` remote objects and rebound them to the newly created registry
+- Clients rebind themselves on the registry after locating it
+- Clients look up the `Login` object and receive a `VoteManager` object by calling `requestVotingMaterial` on it, passing themselves as parameters, thus achieving imbricated authentication
+- `VoteManager` contains all functionalities related to voting, including OTP generation
+
+### OTP Implementation
+- After the vote starts, a Client receives his OTP, a necessity for vote casting
+- The OTP is retained if not used for voting.
+
+### Vote
+- Server admin starts and ends the vote by typing "start" and "end" respectively
+- `VoteManager` remote object contains all vote-related methods and data
+- Revoting necessitates the deletion of the initial vote
+- Every cast vote, along with the timestamp, is displayed on the server terminal
+- Clients can check current voting results after voting or after the voting ends
+
+### Exceptions
+- Encountered in cases of bad credentials, incorrect OTP, incorrect score input by the client, or vote ending before a user completes their vote
+
+### Difficulties Met
+- Implementing real-time vote tracking for clients was challenging; resolved by creating a remote interface for immediate vote status checking
+- Vote logging on the server was addressed via a callback mechanism, ensuring instant recording and display of each cast vote on the server terminal

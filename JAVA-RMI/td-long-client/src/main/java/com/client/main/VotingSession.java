@@ -84,11 +84,11 @@ public class VotingSession {
                 throw new VotingHasEndedException();
             }
             Map<Integer, Integer> candidateScores = inputService.getScoreForCandidates(candidateInfo.getCandidateList());
-            voteManager.castVote(client.getStudentNumber(), candidateScores, voteManager.getOTP(client.getStudentNumber()));
             if (voteStatus.isVotingEnded()) {
                 throw new VotingHasEndedException();
             }else{
                 outputService.printVoteSuccess();
+                voteManager.castVote(client.getStudentNumber(), candidateScores, voteManager.getOTP(client.getStudentNumber()));
             }
         } else{
             throw new IncorrectOTPException();

@@ -11,7 +11,7 @@ public class OutputService {
     }
 
     public void printUseSerializedObjects() {
-        System.out.println("we will use an existing serialized file...");
+        System.out.println("we will use the existing data...");
     }
 
     public void printAllInformation(AdminApp admin){

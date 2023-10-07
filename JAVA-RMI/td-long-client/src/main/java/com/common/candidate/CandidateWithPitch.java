@@ -12,4 +12,8 @@ public class CandidateWithPitch extends Candidate {
     public String getPitch() {
         return pitch;
     }
+    @Override
+    public String toString() {
+        return super.toString() + String.format(" | Pitch: %-50s", pitch);
+    }
 }

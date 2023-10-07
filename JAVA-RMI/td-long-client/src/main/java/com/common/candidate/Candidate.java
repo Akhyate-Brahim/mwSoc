@@ -1,5 +1,4 @@
 package com.common.candidate;
-
 import java.io.Serializable;
 
 public class Candidate implements Serializable {
@@ -28,12 +27,10 @@ public class Candidate implements Serializable {
         return String.format("Rank: %-5d | First Name: %-15s | Last Name: %-15s",
                 rank, firstName, lastName);
     }
-
-    public int getRank() {
-        return rank;
-    }
-
     public String getLastName() {
         return lastName;
+    }
+    public int getRank() {
+        return rank;
     }
 }

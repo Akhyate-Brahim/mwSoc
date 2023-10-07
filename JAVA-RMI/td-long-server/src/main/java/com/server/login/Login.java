@@ -22,7 +22,7 @@ public class Login extends UnicastRemoteObject implements ILogin {
 
     public Login(AdminApp adminApp, IVoteManager votingMaterial) throws RemoteException {
         this.adminApp = adminApp;
-        this.votingMaterial = votingMaterial;  // Initialize with the single instance
+        this.votingMaterial = votingMaterial;
     }
 
     @Override
@@ -31,7 +31,6 @@ public class Login extends UnicastRemoteObject implements ILogin {
         String password = client.getPassword();
 
         if (isValidUser(studentNumber, password)) {
-            // Ensure the adminApp is set in the votingMaterial before returning
             ((VoteManager) votingMaterial).setAdminApp(adminApp);
             return votingMaterial;
         } else {

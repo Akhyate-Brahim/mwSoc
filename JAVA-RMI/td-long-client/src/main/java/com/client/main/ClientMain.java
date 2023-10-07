@@ -20,7 +20,6 @@ public class ClientMain {
             Registry reg = LocateRegistry.getRegistry("localhost", 1099);
             InputService inputService = new InputService();
             OutputService outputService = new OutputService();
-
             ILogin login = (ILogin) reg.lookup("LOGIN");
             ICandidateInfo candidateInfo = (ICandidateInfo) reg.lookup("ICANDIDATEINFO");
             IVoteStatus voteStatus = (IVoteStatus) reg.lookup("VOTESTATUS");
