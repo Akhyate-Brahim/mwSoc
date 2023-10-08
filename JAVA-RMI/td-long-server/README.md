@@ -3,6 +3,7 @@
 ## How to Use the App
 the RMI registry is created inside the server main.
 ### Server
+the main is in server.main
 - Start the server
 - Choose to use existing data or modify data
 - Type in "start" to begin the vote
@@ -10,6 +11,7 @@ the RMI registry is created inside the server main.
 
 ### Client
 #### First Time Voting
+the main is in client.main
 - Type in credentials
 - Wait for the vote to start
 - Receive and confirm your OTP

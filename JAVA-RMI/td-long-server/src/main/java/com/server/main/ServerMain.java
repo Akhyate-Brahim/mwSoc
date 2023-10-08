@@ -14,7 +14,7 @@ import com.server.vote.*;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
-public class serverMain implements VoteCallback {
+public class ServerMain implements VoteCallback {
     @Override
     public void onVoteCast(int studentNumber, String info) {
         System.out.println("Vote cast by student number " + studentNumber + " at " + info);
@@ -25,7 +25,7 @@ public class serverMain implements VoteCallback {
             OutputService outputService=new OutputService();
             InputService inputService=new InputService();
             IVoteManager votingMaterial = new VoteManager(adminApp);
-            ((VoteManager) votingMaterial).setVoteCallback(new serverMain());
+            ((VoteManager) votingMaterial).setVoteCallback(new ServerMain());
             ILogin login = new Login(adminApp, votingMaterial);
             ICandidateInfo candidateInfo = new CandidateInfo(adminApp);
             IVoteStatus voteStatus = new VoteStatus();

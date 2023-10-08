@@ -33,7 +33,11 @@ public class ClientMain {
                     outputService.printMessage(voteManager.getVotingResults());
                 }
             }
+            while(!voteStatus.isVotingEnded()){
+                Thread.sleep(3000);
+            }
             if (voteStatus.isVotingEnded()){
+                outputService.printVotingDone();
                 if (inputService.askForFinalResults()){
                     outputService.printMessage(voteManager.getVotingResults());
                 }

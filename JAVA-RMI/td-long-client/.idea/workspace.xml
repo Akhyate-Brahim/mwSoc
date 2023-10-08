@@ -2,38 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34a87e68-a2bf-4687-be6a-730c5807d005" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../td-long-server/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td-long-server/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10883a16b883bf0eb165fb6746da94074e81e45c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11d1d30e5d9680afc0f68150665ad0824c6a8a14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/215d280eeaf4990d4a861e6d109395b39cb8b179" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26a167e566a0daefa815a6d5b31d7d8ede54f035" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3eb237cd600edaa7c0b72cadc0d4727188e08918" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4efe18d2bbdf614a4d79e122a6b7675b429be8d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55eeeb57ffaf04244c1086c2211b9e4fc12dedea" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/674fa62b7e3ea94bf6f5c69871cb98c5717eb5bb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/770de21cb7dfe7864f5b315d0852684cf8820f87" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/806d89aee202684272cbb12c948c1c402c43420f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f30cf4b12adef7acb55d347459209a86ac3dd60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a66bcb75f4d2a7798f214a8227a718f29650a78c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8e7a3a9e1db6db8ab2d4676fac0166d4773062c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da099ea0c45abb33f4253bf74a4379ffa6a4b2a8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e03affa10ed58c4d3bd8f3d50b13b17a38d4b1ef" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff740421349fbbe40eb2b6cb39035bdc2eb93f62" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/fff4f5b759acb0ec761c00067e5daec9c97bf4fc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/td-long-client/com/client/main/ClientMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/td-long-client/com/client/main/ClientMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/td-long-client/com/client/main/VotingSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/td-long-client/com/client/main/VotingSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/td-long-client/com/common/candidate/Candidate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/td-long-client/com/common/candidate/Candidate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/td-long-client/com/common/candidate/CandidateWithPitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/td-long-client/com/common/candidate/CandidateWithPitch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/client/main/ClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/main/ClientMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/client/main/VotingSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/main/VotingSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/candidate/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/candidate/Candidate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/candidate/CandidateWithPitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/candidate/CandidateWithPitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/0/9/09b2c6ee527c6ab0f03ebde31dafb5693a64ef7e" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/2/1/211fd57453d9c6b03befee7655b31f4c2e1a1a60" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/2/1/2146569f4dee7aa914f19383f33393ec38e8d360" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/2/1/215d280eeaf4990d4a861e6d109395b39cb8b179" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/2/5/25fcd1cc3f51d13e48ed42d7dc9b9f20cec53abf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/2/6/26a167e566a0daefa815a6d5b31d7d8ede54f035" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/3/d/3dc3d2a0b85f0b807759d22557ab7d1c7a815837" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/3/e/3eb237cd600edaa7c0b72cadc0d4727188e08918" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/4/9/49677aabbfaf3ad5b4ef597b692b453328ac30d7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/4/e/4efe18d2bbdf614a4d79e122a6b7675b429be8d0" beforeDir="false" />
@@ -43,21 +36,14 @@
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/8/e/8e639a431284c2e9712fbee3a039281ec74e52c1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/8/f/8f30cf4b12adef7acb55d347459209a86ac3dd60" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/9/c/9c371ab167032abc62cb68913df9c2db422936af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/9/e/9ead99d3668dd4a7a87f31aa4476c0da62672a94" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/a/6/a66bcb75f4d2a7798f214a8227a718f29650a78c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/a/8/a8e7a3a9e1db6db8ab2d4676fac0166d4773062c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/b/8/b84bbb63ed1b35eb39ac759d652a9632a4cb6571" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/f/f/fff4f5b759acb0ec761c00067e5daec9c97bf4fc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/candidate/CandidateWithPitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/common/candidate/CandidateWithPitch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/adminApp/CreateSer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/adminApp/CreateSer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/OutputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/io/OutputService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/serverMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/java/com/server/main/ServerMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../td-long-server/src/main/resources/students.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/src/main/resources/students.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../td-long-server/td-long-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../td-long-server/td-long-server.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +134,7 @@
       <workItem from="1696715615598" duration="353000" />
       <workItem from="1696716132540" duration="2246000" />
       <workItem from="1696720114337" duration="1185000" />
+      <workItem from="1696761715711" duration="3339000" />
     </task>
     <servers />
   </component>

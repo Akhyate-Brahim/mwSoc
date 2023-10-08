@@ -87,8 +87,8 @@ public class VotingSession {
             if (voteStatus.isVotingEnded()) {
                 throw new VotingHasEndedException();
             }else{
-                outputService.printVoteSuccess();
                 voteManager.castVote(client.getStudentNumber(), candidateScores, voteManager.getOTP(client.getStudentNumber()));
+                outputService.printVoteSuccess();
             }
         } else{
             throw new IncorrectOTPException();

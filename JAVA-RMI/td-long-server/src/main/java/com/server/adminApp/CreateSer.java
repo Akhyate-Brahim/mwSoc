@@ -19,7 +19,7 @@ public class CreateSer {
         candidates.add(new Candidate("Grace", "Smith"));
         candidates.add(new CandidateWithPitch("Alice", "Johnson", "This is Alice's text pitch."));
         candidates.add(new CandidateWithPitch("Bob", "Brown", "https://www.youtube.com/watch?v=BOB_VIDEO"));
-        candidates.add(new CandidateWithPitch("Charlie", "White", "https://www.youtube.com/watch?v=CHARLIE_VIDEO"));
+        candidates.add(new CandidateWithPitch("Charlie", "White", "https://www.youtube.com/watch?v=d6uN9xYUMxE&ab_channel=ChiselSharp"));
 
         users.add(new User(101, "pass101"));
         users.add(new User(102, "pass102"));
