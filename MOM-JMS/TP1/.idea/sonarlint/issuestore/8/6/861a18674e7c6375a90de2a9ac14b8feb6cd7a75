@@ -1,0 +1,8 @@
+
+o
+java:S2095"MUse try-with-resources or close this "TopicSubscriber" in a "finally" clause.(ÁÄÄºùÿÿÿÿ8üÛâ¼³1
+e
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(µÑŞÎ8ûÛâ¼³1
+Ì
+java:S5301"®Secure this "ActiveMQConnectionFactory" by whitelisting the trusted packages using the "setTrustedPackages" method and make sure the "setTrustAllPackages" is not set to true.(¶Ú‰–8‚Üâ¼³1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(”’Á½8ƒÜâ¼³1

@@ -1,0 +1,12 @@
+
+c
+java:S2095$"HUse try-with-resources or close this "Connection" in a "finally" clause.(­“›üûÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¼¾®œşÿÿÿÿ
+Ê
+java:S5301""®Secure this "ActiveMQConnectionFactory" by whitelisting the trusted packages using the "setTrustedPackages" method and make sure the "setTrustAllPackages" is not set to true.(ê¿Î˜ûÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(©à¶Ì
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(ö°€à
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(âÅ¹Ù
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(ÃÆ¢ÿÿÿÿÿ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(Üé•üÿÿÿÿ
