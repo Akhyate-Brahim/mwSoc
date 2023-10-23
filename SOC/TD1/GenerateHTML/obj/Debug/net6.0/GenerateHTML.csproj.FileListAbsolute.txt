@@ -1,0 +1,15 @@
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\bin\Debug\net6.0\GenerateHTML.exe
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\bin\Debug\net6.0\GenerateHTML.deps.json
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\bin\Debug\net6.0\GenerateHTML.runtimeconfig.json
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\bin\Debug\net6.0\GenerateHTML.dll
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\bin\Debug\net6.0\GenerateHTML.pdb
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\obj\Debug\net6.0\GenerateHTML.csproj.AssemblyReference.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\obj\Debug\net6.0\GenerateHTML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\obj\Debug\net6.0\GenerateHTML.AssemblyInfoInputs.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\obj\Debug\net6.0\GenerateHTML.AssemblyInfo.cs
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\obj\Debug\net6.0\GenerateHTML.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\obj\Debug\net6.0\GenerateHTML.dll
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\obj\Debug\net6.0\refint\GenerateHTML.dll
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\obj\Debug\net6.0\GenerateHTML.pdb
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\obj\Debug\net6.0\GenerateHTML.genruntimeconfig.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\GenerateHTML\obj\Debug\net6.0\ref\GenerateHTML.dll

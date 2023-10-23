@@ -1,0 +1,26 @@
+
+o	java:S135¿"YReduce the total number of break and continue statements in this loop to use at most one.(¶ËÏ’
+n	java:S127È"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨ËÃ 
+s	java:S127Ñ"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ïº­úıÿÿÿÿ
+n	java:S127Ú"XRefactor the code in order to not assign to this loop counter from within the loop body.(ªøóË
+Q
+java:S1141Œ"5Extract this nested try block into a separate method.(ç£êúÿÿÿÿ
+7
+java:S2189g""Add an end condition to this loop.(¤èÄ7
+u
+java:S1149ù"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(„ªÛz
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(’Ó½²ûÿÿÿÿ
+S	java:S106a"9Replace this use of System.out or System.err by a logger.(ç… Àûÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(±¤ª¹
+i
+java:S3776±"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ÈšÉ÷
+A
+java:S1197±"*Move the array designators [] to the type.(ÈšÉ÷
+O	java:S106Å"9Replace this use of System.out or System.err by a logger.(Øœİ§
+O	java:S106Î"9Replace this use of System.out or System.err by a logger.(›ß™Ã
+O	java:S106×"9Replace this use of System.out or System.err by a logger.(¾’ø
+T	java:S106ä"9Replace this use of System.out or System.err by a logger.(ãÃı¢ûÿÿÿÿ
+T	java:S106ë"9Replace this use of System.out or System.err by a logger.(¥ŞºÎúÿÿÿÿ
+T	java:S106‚"9Replace this use of System.out or System.err by a logger.(ìÀÀƒøÿÿÿÿ
+K
+java:S10681"0Remove this unused "DEFAULT_USER" private field.(ÁÃú¥ùÿÿÿÿ

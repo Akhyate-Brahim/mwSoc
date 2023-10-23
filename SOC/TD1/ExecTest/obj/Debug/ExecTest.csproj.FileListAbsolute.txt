@@ -1,0 +1,8 @@
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExecTest\bin\Debug\ExecTest.exe.config
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExecTest\bin\Debug\ExecTest.exe
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExecTest\bin\Debug\ExecTest.pdb
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExecTest\obj\Debug\ExecTest.csproj.AssemblyReference.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExecTest\obj\Debug\ExecTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExecTest\obj\Debug\ExecTest.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExecTest\obj\Debug\ExecTest.exe
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExecTest\obj\Debug\ExecTest.pdb

@@ -1,0 +1,11 @@
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\BasicWebServer\obj\Debug\BasicWebServerUrlParser.csproj.AssemblyReference.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\BasicWebServer\obj\Debug\BasicWebServerUrlParser.csproj.SuggestedBindingRedirects.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\BasicWebServer\obj\Debug\BasicWebServerUrlParser.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\BasicWebServer\bin\Debug\BasicWebServer.exe.config
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\BasicWebServer\bin\Debug\BasicWebServer.exe
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\BasicWebServer\bin\Debug\BasicWebServer.pdb
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\BasicWebServer\obj\Debug\BasicWebServer.exe
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\BasicWebServer\obj\Debug\BasicWebServer.pdb
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\BasicWebServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\BasicWebServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\BasicWebServer\obj\Debug\BasicWebServerUrlParser.csproj.CopyComplete

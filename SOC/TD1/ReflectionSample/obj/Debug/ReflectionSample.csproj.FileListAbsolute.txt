@@ -1,0 +1,8 @@
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ReflectionSample\bin\Debug\ReflectionSample.exe.config
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ReflectionSample\bin\Debug\ReflectionSample.exe
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ReflectionSample\bin\Debug\ReflectionSample.pdb
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ReflectionSample\obj\Debug\ReflectionSample.csproj.AssemblyReference.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ReflectionSample\obj\Debug\ReflectionSample.csproj.SuggestedBindingRedirects.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ReflectionSample\obj\Debug\ReflectionSample.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ReflectionSample\obj\Debug\ReflectionSample.exe
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ReflectionSample\obj\Debug\ReflectionSample.pdb

@@ -1,0 +1,8 @@
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExternalExeCall\bin\Debug\ExternalExeCall.exe.config
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExternalExeCall\bin\Debug\ExternalExeCall.exe
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExternalExeCall\bin\Debug\ExternalExeCall.pdb
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExternalExeCall\obj\Debug\ExternalExeCall.csproj.AssemblyReference.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExternalExeCall\obj\Debug\ExternalExeCall.csproj.SuggestedBindingRedirects.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExternalExeCall\obj\Debug\ExternalExeCall.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExternalExeCall\obj\Debug\ExternalExeCall.exe
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD1\ExternalExeCall\obj\Debug\ExternalExeCall.pdb

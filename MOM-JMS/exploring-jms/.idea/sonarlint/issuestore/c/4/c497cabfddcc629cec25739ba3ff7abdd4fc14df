@@ -1,0 +1,46 @@
+
+J
+java:S3740O"/Provide the parametrized type for this generic.(‚çŸ›úÿÿÿÿ
+J
+java:S3740O"/Provide the parametrized type for this generic.(‚çŸ›úÿÿÿÿ
+K
+java:S3740ü"/Provide the parametrized type for this generic.(ëğŒøøÿÿÿÿ
+h
+java:S1192B"MDefine a constant instead of duplicating this literal "QueueMonitor" 4 times.(ïÜµüÿÿÿÿ
+Q
+java:S1141Œ"5Extract this nested try block into a separate method.(ç£êúÿÿÿÿ
+H
+java:S1153…"1Directly append the argument of String.valueOf().( †š…
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÖÎ÷Íûÿÿÿÿ8®›¿š±1
+d
+java:S2095Â"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ØóÕÑ
+?
+java:S2387I"*"title" is the name of a field in "Frame".(î—“
+
+€
+java:S1149O"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‚çŸ›úÿÿÿÿ
+u
+java:S1149±"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(„ªÛz
+S	java:S106f"9Replace this use of System.out or System.err by a logger.(í¯ÿÇøÿÿÿÿ
+S	java:S106q"9Replace this use of System.out or System.err by a logger.(œİ³ûÿÿÿÿ
+T	java:S106‚"9Replace this use of System.out or System.err by a logger.(õîÓÌûÿÿÿÿ
+V
+java:S1161 ":Add the "@Override" annotation above this method signature(ãİ‹ëüÿÿÿÿ
+T	java:S106¶"9Replace this use of System.out or System.err by a logger.(ªó¼Øüÿÿÿÿ
+O	java:S106Ø"9Replace this use of System.out or System.err by a logger.(ÔÜüË
+i
+java:S3776ä"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ä ¸ú
+U
+java:S1155ê">Use isEmpty() to check whether the collection is empty or not.(˜´ôí
+N	java:S106ø"9Replace this use of System.out or System.err by a logger.(íìÕ\
+T	java:S106ú"9Replace this use of System.out or System.err by a logger.(Î‹—Óúÿÿÿÿ
+O	java:S106…"9Replace this use of System.out or System.err by a logger.( †š…
+T	java:S106‡"9Replace this use of System.out or System.err by a logger.(æÄ†Æÿÿÿÿÿ
+I
+java:S1874"3Remove this use of "modelToView"; it is deprecated.(øÏ×f
+I
+java:S1874¢"3Remove this use of "modelToView"; it is deprecated.(øÏ×f
+T	java:S106À"9Replace this use of System.out or System.err by a logger.(Ñõ‡øÿÿÿÿ
+O	java:S106Ä"9Replace this use of System.out or System.err by a logger.(ŒèÌ“
+O	java:S106È"9Replace this use of System.out or System.err by a logger.(ì”Ç«
+O	java:S106Í"9Replace this use of System.out or System.err by a logger.(’Šò©
