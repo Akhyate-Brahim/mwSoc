@@ -1,0 +1,11 @@
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\TD2\obj\Debug\RESTClient.csproj.AssemblyReference.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\TD2\obj\Debug\RESTClient.csproj.SuggestedBindingRedirects.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\TD2\obj\Debug\RESTClient.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\TD2\bin\Debug\TD2.exe.config
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\TD2\bin\Debug\TD2.exe
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\TD2\bin\Debug\TD2.pdb
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\TD2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\TD2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\TD2\obj\Debug\RESTClient.csproj.CopyComplete
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\TD2\obj\Debug\TD2.exe
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\TD2\obj\Debug\TD2.pdb

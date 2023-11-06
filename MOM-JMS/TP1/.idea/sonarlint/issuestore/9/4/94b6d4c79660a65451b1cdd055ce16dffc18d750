@@ -1,27 +1,0 @@
-
-g	java:S112}"FDefine and throw a dedicated exception instead of using a generic one.(íğ›÷ıÿÿÿÿ8¾âô»³1
-L
-java:S3740"/Provide the parametrized type for this generic.(çßı¾8Şºë»³1
-L
-java:S3740"/Provide the parametrized type for this generic.(çßı¾8Şºë»³1
-s
-java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(çßı¾8…»ë»³1
-T
-java:S11352"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8‹»ë»³1
-V
-java:S1117;"9Rename "queue" which hides the field declared at line 22.(Ôª¥˜8Œ»ë»³1
-V
-java:S1117C"9Rename "queue" which hides the field declared at line 22.(Ôª¥˜8»ë»³1
-Z	java:S106D"9Replace this use of System.out or System.err by a logger.(˜¡çŸûÿÿÿÿ8»ë»³1
-Z	java:S106t"9Replace this use of System.out or System.err by a logger.(‹»¾¢ıÿÿÿÿ8ìâô»³1
-Z	java:S106u"9Replace this use of System.out or System.err by a logger.(í Âõøÿÿÿÿ8íâô»³1
-Z	java:S106x"9Replace this use of System.out or System.err by a logger.(ßœ°¤ùÿÿÿÿ8íâô»³1
-Z	java:S106|"9Replace this use of System.out or System.err by a logger.(»©‹üÿÿÿÿ8íâô»³1
-V	java:S106„"9Replace this use of System.out or System.err by a logger.(Š’€·8îâô»³1
-[	java:S106‡"9Replace this use of System.out or System.err by a logger.(¨ËôÔøÿÿÿÿ8ïâô»³1
-O
-java:S1128"2Remove this unused import 'javax.jms.TextMessage'.(ü¹·Ö8Ô¬í»³1
-l
-java:S1128"JRemove this unused import 'org.apache.activemq.ActiveMQConnectionFactory'.(‘£‘Áşÿÿÿÿ8Ô¬í»³1
-K
-java:S1068")Remove this unused "queue" private field.(É«±Âÿÿÿÿÿ8•»ë»³1

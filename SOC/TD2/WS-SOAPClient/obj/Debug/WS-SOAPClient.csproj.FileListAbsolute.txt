@@ -1,0 +1,8 @@
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\WS-SOAPClient\bin\Debug\WS-SOAPClient.exe.config
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\WS-SOAPClient\bin\Debug\WS-SOAPClient.exe
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\WS-SOAPClient\bin\Debug\WS-SOAPClient.pdb
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\WS-SOAPClient\obj\Debug\WS-SOAPClient.csproj.AssemblyReference.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\WS-SOAPClient\obj\Debug\WS-SOAPClient.csproj.SuggestedBindingRedirects.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\WS-SOAPClient\obj\Debug\WS-SOAPClient.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\WS-SOAPClient\obj\Debug\WS-SOAPClient.exe
+C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD2\WS-SOAPClient\obj\Debug\WS-SOAPClient.pdb
