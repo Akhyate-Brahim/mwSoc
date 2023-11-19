@@ -1,7 +1,0 @@
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibrary\bin\Debug\MathsLibrary.dll.config
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibrary\bin\Debug\MathsLibrary.dll
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibrary\bin\Debug\MathsLibrary.pdb
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibrary\obj\Debug\MathsLibrary.csproj.AssemblyReference.cache
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibrary\obj\Debug\MathsLibrary.csproj.CoreCompileInputs.cache
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibrary\obj\Debug\MathsLibrary.dll
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibrary\obj\Debug\MathsLibrary.pdb

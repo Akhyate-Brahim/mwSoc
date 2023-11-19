@@ -1,7 +1,0 @@
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\SOAPServer\bin\Debug\SOAPServer.dll.config
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\SOAPServer\bin\Debug\SOAPServer.dll
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\SOAPServer\bin\Debug\SOAPServer.pdb
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\SOAPServer\obj\Debug\SOAPServer.csproj.AssemblyReference.cache
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\SOAPServer\obj\Debug\SOAPServer.csproj.CoreCompileInputs.cache
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\SOAPServer\obj\Debug\SOAPServer.dll
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\SOAPServer\obj\Debug\SOAPServer.pdb

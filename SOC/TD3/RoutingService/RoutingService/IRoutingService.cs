@@ -1,0 +1,17 @@
+﻿using RoutingService.model;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.Text;
+
+namespace RoutingService
+{
+    [ServiceContract()]
+    interface IRoutingService
+    {
+        [OperationContract()]
+        List<Position> GetItinerary(Position departure, Position destination);
+    }
+}

@@ -1,8 +1,0 @@
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryClient\bin\Debug\MathsLibraryClient.exe.config
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryClient\bin\Debug\MathsLibraryClient.exe
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryClient\bin\Debug\MathsLibraryClient.pdb
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryClient\obj\Debug\MathsLibraryClient.csproj.AssemblyReference.cache
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryClient\obj\Debug\MathsLibraryClient.csproj.SuggestedBindingRedirects.cache
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryClient\obj\Debug\MathsLibraryClient.csproj.CoreCompileInputs.cache
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryClient\obj\Debug\MathsLibraryClient.exe
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryClient\obj\Debug\MathsLibraryClient.pdb

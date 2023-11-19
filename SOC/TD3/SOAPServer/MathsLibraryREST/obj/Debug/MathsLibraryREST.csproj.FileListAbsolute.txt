@@ -1,7 +1,0 @@
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryREST\obj\Debug\MathsLibraryREST.csproj.AssemblyReference.cache
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryREST\obj\Debug\MathsLibraryREST.csproj.CoreCompileInputs.cache
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryREST\bin\Debug\MathsLibraryREST.dll.config
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryREST\bin\Debug\MathsLibraryREST.dll
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryREST\bin\Debug\MathsLibraryREST.pdb
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryREST\obj\Debug\MathsLibraryREST.dll
-C:\Users\ibrah\OneDrive\Bureau\MWSOC\mwSockets\SOC\TD3\SOAPServer\MathsLibraryREST\obj\Debug\MathsLibraryREST.pdb
