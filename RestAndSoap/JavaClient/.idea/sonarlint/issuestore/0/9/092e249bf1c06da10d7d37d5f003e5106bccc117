@@ -1,0 +1,6 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(–åÛ8âû²È¿1
+c
+java:S1128"GRemove this unused import 'javax.persistence.criteria.CriteriaBuilder'.(É¿F8úı“À1
+M
+java:S1068"2Remove this unused "routePositions" private field.(ÍÊÇ„ûÿÿÿÿ
