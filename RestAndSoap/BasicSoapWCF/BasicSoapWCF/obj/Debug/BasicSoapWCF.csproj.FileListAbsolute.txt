@@ -1,0 +1,7 @@
+C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapWCF\bin\Debug\BasicSoapWCF.dll.config
+C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapWCF\bin\Debug\BasicSoapWCF.dll
+C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapWCF\bin\Debug\BasicSoapWCF.pdb
+C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapWCF\obj\Debug\BasicSoapWCF.csproj.AssemblyReference.cache
+C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapWCF\obj\Debug\BasicSoapWCF.csproj.CoreCompileInputs.cache
+C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapWCF\obj\Debug\BasicSoapWCF.dll
+C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapWCF\obj\Debug\BasicSoapWCF.pdb

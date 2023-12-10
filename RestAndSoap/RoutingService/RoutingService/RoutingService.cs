@@ -1,112 +1,127 @@
-﻿using Newtonsoft.Json;
-using RoutingService.ExternalClients;
-using RoutingService.model;
+﻿using RouteService.ExternalClients;
+using RouteService.ProxyServ;
+using RoutingService.util;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.Contracts;
 using System.Linq;
-using System.Net.Http;
-using System.Runtime.Serialization;
 using System.ServiceModel;
-using System.Text;
-using System.Threading.Tasks;
-using Contract = RoutingService.model.Contract;
+using System.Globalization;
 
-namespace RoutingService
+namespace RouteService
 {
+    [ServiceBehavior(IncludeExceptionDetailInFaults = true)]
     class RoutingService : IRoutingService
     {
-        const string apiKey = "b1a5bf2860e859e32770061a4cdd5e222a7e9e96";
-        const string baseUrl = "https://api.jcdecaux.com/vls/v1/";
-        static HttpClient client = new HttpClient();
+        static ProxyServiceClient proxyServiceClient = new ProxyServiceClient();
+        private const string Cycling = "cycling-regular/";
+        private const string Walking = "foot-walking/";
 
 
-
-        public List<Position> GetItinerary(Position departure, Position destination)
+        public List<RouteSegment> GetItinerary(string departure, string destination)
         {
-            throw new NotImplementedException();
+            Position departureCoord = OSMClient.GetLocation(departure);
+            Position destinationCoord = OSMClient.GetLocation(destination);
+            
+            string departureCoordString = PositionToString(departureCoord);
+            string destinationCoordString = PositionToString(destinationCoord);
+            // let's calculate the departure and destination stations
+            Contract closestContractDeparture = FindClosestContract(departureCoord);
+            Contract closestContractDestination = FindClosestContract(destinationCoord);
+            Station closestStationDeparture = FindClosestStation(departureCoord, closestContractDeparture, false);
+            Station closestStationDestination = FindClosestStation(destinationCoord, closestContractDestination, true);
+            
+            // error
+            string departureStationCoordString = PositionToString(closestStationDeparture.Position); // closest station null??
+            string destinationStationCoordString = PositionToString(closestStationDestination.Position);
+
+            // let's find the first on foot itinerary
+            RouteSegment walkingToStation = ORSClient.GetRoute(departureCoordString, departureStationCoordString, Walking);
+
+            // let's find the cycling itinerary
+            RouteSegment cycling = ORSClient.GetRoute(departureStationCoordString, destinationStationCoordString, Cycling);
+
+            // let's find the final on foot itinerary
+            RouteSegment walkingFromStation = ORSClient.GetRoute(destinationStationCoordString, destinationCoordString, Walking);
+
+            // calculate the full itinerary on foot
+            RouteSegment fullWalking = ORSClient.GetRoute(departureCoordString, destinationCoordString, Walking);
+
+            // preparing return
+            List<RouteSegment> routes = new List<RouteSegment> { walkingToStation, cycling, walkingFromStation };
+            List<RouteSegment> walkingReturnList = new List<RouteSegment> { fullWalking };
+
+            // return based on duration
+            return walkingToStation.duration + cycling.duration + walkingFromStation.duration > fullWalking.duration ?
+                walkingReturnList : routes;
         }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        static async Task<List<Contract>> GetAllContracts()
+        static Station FindClosestStation(Position position, Contract contract, bool withBike)
         {
-            HttpResponseMessage response = client.GetAsync($"{baseUrl}/contracts?apiKey={apiKey}").Result;
-            response.EnsureSuccessStatusCode();
-            string responseBody = response.Content.ReadAsStringAsync().Result;
-            var contracts = JsonConvert.DeserializeObject<List<Contract>>(responseBody);
-            return contracts;
-        }
-        static async Task<Contract> FindContract(List<Contract> contracts, Position position)
-        {
-            string locationName = await OSMClient.GetLocationName(position);
-            foreach (var contract in contracts)
+            var stationsArray = proxyServiceClient.GetStationsForContract(contract.Name);
+            List<Station> stations = stationsArray.ToList();
+            // stations = stations.Where(station => station.AvailableBikes > 0 && station.AvailableBikeStands > 0).ToList();
+            if (stations == null || stations.Count == 0)
             {
-                if (contract.Cities != null && contract.Cities.Contains(locationName, StringComparer.OrdinalIgnoreCase))
-                {
-                    return contract;
-                }
+                throw new Exception("ZABA"); // error here stations are null for some reason
             }
-            throw new NotImplementedException();
-        }
-        static List<Station> GetAllStations(Contract contract)
-        {
-            HttpResponseMessage response = client.
-                GetAsync($"{baseUrl}stations?contract={contract.Name}&apiKey={apiKey}").Result;
-            response.EnsureSuccessStatusCode();
-            string responseBody = response.Content.ReadAsStringAsync().Result;
-            var stations = JsonConvert.DeserializeObject<List<Station>>(responseBody);
-            return stations;
-        }
-        static Station FindClosestStation(List<Station> stations, Station myStation)
-        {
-            double minDistance = double.MaxValue;
-            Station closestStation = null;
-            foreach (var station in stations)
+
+            List<Position> positions = stations.Select(station => station.Position).ToList();
+            Position closestPosition = DistanceCalculator.FindClosestPosition(position, positions);
+
+            foreach (Station station in stations)
             {
-                if (station.Number == myStation.Number)
-                {
-                    continue;
-                }
-                double distance = myStation.DistanceTo(station);
-                if (distance < minDistance)
-                {
-                    minDistance = distance;
-                    closestStation = station;
-                }
-            }
-            return closestStation;
-        }
-        static Station GetStation(List<Station> stations, int stationNumber)
-        {
-            foreach (var station in stations)
-            {
-                if (station.Number.Equals(stationNumber))
+                if (PositionsAreEqual(station.Position, closestPosition))
                 {
                     return station;
                 }
             }
+
             return null;
         }
-    }
 
+
+        static Contract FindClosestContract(Position position)
+        {
+            List<Contract> contracts = proxyServiceClient.GetContracts().ToList();
+            string posCity = OSMClient.GetCityNameFromCoordinates(position.Lng, position.Lat);
+            var contract = FindContractByCity(posCity, contracts);
+            if (contract != null)
+            {
+                return contract;
+            }
+            Dictionary<string, Position> contractCenters = proxyServiceClient.GetAllContractCenters();
+            Position closestPosition = DistanceCalculator.FindClosestPosition(position, contractCenters.Values);
+            string closestContractName = contractCenters.FirstOrDefault(kvp => kvp.Value.Equals(closestPosition)).Key;
+            return FindContractByName(closestContractName, contracts);
+        }
+
+        static Contract FindContractByCity(string cityName, List<Contract> contracts)
+        {
+            return contracts.FirstOrDefault(contract => contract.Cities?.Contains(cityName, StringComparer.OrdinalIgnoreCase) == true);
+        }
+        public static Contract FindContractByName(string contractName, List<Contract> contracts)
+        {
+            return contracts.FirstOrDefault(contract => contract.Name.Equals(contractName, StringComparison.OrdinalIgnoreCase));
+        }
+
+        public static Station FindStationByNumber(int number, List<Station> stations)
+        {
+            return stations.FirstOrDefault(station => station.Number == number);
+        }
+        public static string PositionToString(Position position)
+        {
+            return String.Format(CultureInfo.InvariantCulture, "{0},{1}", position.Lng, position.Lat);
+        }
+        private const double Tolerance = 1e-6; // Example tolerance value
+
+        private static bool PositionsAreEqual(Position pos1, Position pos2)
+        {
+            return Math.Abs(pos1.Lat - pos2.Lat) < Tolerance && Math.Abs(pos1.Lng - pos2.Lng) < Tolerance;
+        }
+
+
+    }
 }

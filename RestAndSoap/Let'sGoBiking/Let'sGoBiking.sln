@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteService", "RouteService\RouteService.csproj", "{6BCFF13A-C136-4C06-8A9B-F02943E27216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyCacheService", "ProxyCacheService\ProxyCacheService.csproj", "{BCFFE4CB-3652-4C63-B99C-C614E2433A3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BCFF13A-C136-4C06-8A9B-F02943E27216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BCFF13A-C136-4C06-8A9B-F02943E27216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BCFF13A-C136-4C06-8A9B-F02943E27216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BCFF13A-C136-4C06-8A9B-F02943E27216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCFFE4CB-3652-4C63-B99C-C614E2433A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFFE4CB-3652-4C63-B99C-C614E2433A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFFE4CB-3652-4C63-B99C-C614E2433A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFFE4CB-3652-4C63-B99C-C614E2433A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A07C5A0-A8CC-4D96-A09F-070B5041E412}
+	EndGlobalSection
+EndGlobal

@@ -1,19 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
+using System.Runtime.Serialization;
 
 namespace RoutingService.model
 {
-    class Position
+    [DataContract]
+    [Serializable]
+    public class Position
     {
+        [DataMember]
         public double Lat { get; set; }
+
+        [DataMember]
         public double Lng { get; set; }
+
+        public Position(double lat, double lng)
+        {
+            this.Lat = lat;
+            this.Lng = lng;
+        }
 
         public override string ToString()
         {
-            return $"Latitude: {Lat}, Longitude: {Lng}";
+            return $"{Lat.ToString(CultureInfo.InvariantCulture)},{Lng.ToString(CultureInfo.InvariantCulture)}";
         }
 
         // Calculate distance to another Position object in meters

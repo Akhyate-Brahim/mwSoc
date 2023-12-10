@@ -1,12 +1,12 @@
-﻿using Newtonsoft.Json.Linq;
-using RoutingService.model;
-using RoutingService.util;
+﻿using RoutingService.util;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json.Linq;
+using RoutingService.model;
 
 namespace RoutingService
 {
@@ -16,9 +16,11 @@ namespace RoutingService
         const string baseUrl = "https://graphhopper.com/api/1/route";
         static HttpClient client = new HttpClient();
 
-        public static async Task<List<Position>> GetRoute(string start, string end, string vehicle = "bike")
+        public static async Task<List<Position>> GetRoute(List<string> points, string vehicle = "bike")
         {
-            string requestUrl = $"{baseUrl}?point={start}&point={end}&vehicle={vehicle}&key={apiKey}";
+            var pointParams = string.Join("&", points.Select(p => $"point={p}"));
+            string requestUrl = $"{baseUrl}?{pointParams}&vehicle={vehicle}&key={apiKey}";
+
             HttpResponseMessage response = await client.GetAsync(requestUrl);
             if (response.IsSuccessStatusCode)
             {
@@ -33,4 +35,6 @@ namespace RoutingService
             }
         }
     }
+
+  
 }

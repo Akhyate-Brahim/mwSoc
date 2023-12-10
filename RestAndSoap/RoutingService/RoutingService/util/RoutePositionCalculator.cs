@@ -37,12 +37,7 @@ namespace RoutingService.util
                 } while (b >= 0x20);
                 int dlng = ((result & 1) != 0 ? ~(result >> 1) : (result >> 1));
                 lng += dlng;
-
-                Position p = new Position
-                {
-                    Lat = lat / 1E5,
-                    Lng = lng / 1E5
-                };
+                Position p = new Position(lat / 1E5, lng / 1E5);
                 poly.Add(p);
             }
 

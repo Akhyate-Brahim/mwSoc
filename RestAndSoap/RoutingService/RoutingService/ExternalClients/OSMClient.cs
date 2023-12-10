@@ -1,14 +1,15 @@
 ﻿using Newtonsoft.Json.Linq;
-using RoutingService.model;
+using RouteService.ProxyServ;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RoutingService.ExternalClients
+namespace RouteService.ExternalClients
 {
     class OSMClient
     {
@@ -18,33 +19,46 @@ namespace RoutingService.ExternalClients
         {
             client.DefaultRequestHeaders.Add("User-Agent", "YourApp/1.0");
         }
-
-        public static async Task<string> GetLocationName(Position position)
+        public static Position GetLocation(string locationName)
         {
-            string lat = position.Lat.ToString(CultureInfo.InvariantCulture);
-            string lng = position.Lng.ToString(CultureInfo.InvariantCulture);
-            Console.WriteLine($"latitude and longitude : {lat} + {lng}");
-            string requestUrl = $"{baseUrl}/reverse?format=json&lat={lat}&lon={lng}";
-            HttpResponseMessage response = await client.GetAsync(requestUrl);
-            if (response.IsSuccessStatusCode)
+            string encodedUrlLocation = WebUtility.UrlEncode(locationName);
+            HttpResponseMessage response = client.GetAsync($"{baseUrl}search?format=json&q={encodedUrlLocation}").Result;
+            response.EnsureSuccessStatusCode();
+            string content = response.Content.ReadAsStringAsync().Result;
+            JArray array = JArray.Parse(content);
+            if (array.Count > 0)
             {
-                string content = await response.Content.ReadAsStringAsync();
-                var data = JObject.Parse(content);
-                var address = data["address"];
-                string locationName = address["city"]?.ToString()
-                                   ?? address["town"]?.ToString()
-                                   ?? address["village"]?.ToString()
-                                   ?? address["hamlet"]?.ToString()
-                                   ?? address["locality"]?.ToString()
-                                   ?? address["suburb"]?.ToString()
-                                   ?? address["neighbourhood"]?.ToString();
-
-                return locationName;
+                JObject locationData = (JObject)array[0];
+                double latitude = locationData["lat"].Value<double>();
+                double longitude = locationData["lon"].Value<double>();
+                var position = new Position
+                {
+                    Lat = latitude,
+                    Lng = longitude
+                };
+                return position;
             }
             else
             {
-                throw new HttpRequestException($"Error fetching route: {response.StatusCode}");
+                throw new NonExistentLocationException($"{locationName} does not exist !");
             }
         }
+        public static string GetCityNameFromCoordinates(double longitude, double latitude)
+        {
+            string longitudeString = longitude.ToString(CultureInfo.InvariantCulture);
+            string latitudeString = latitude.ToString(CultureInfo.InvariantCulture);
+            HttpResponseMessage response = client.GetAsync($"{baseUrl}reverse?format=json&lat={latitudeString}&lon={longitudeString}&accept-language=fr").Result;
+            response.EnsureSuccessStatusCode();
+            string content = response.Content.ReadAsStringAsync().Result;
+            JObject locationData = JObject.Parse(content);
+
+            string city = locationData["address"]["city"]?.ToString() ??
+                          locationData["address"]["town"]?.ToString() ??
+                          locationData["address"]["village"]?.ToString();
+
+            return city;
+        }
     }
+
 }
+

@@ -1,4 +1,1 @@
-﻿to do: 
- find the closest station to start and end points
- return the list of positions
- draw them in the client
+﻿
