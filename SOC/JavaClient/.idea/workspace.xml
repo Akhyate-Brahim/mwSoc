@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d4ca066-14c0-43b7-a14f-3bf82f5ccfe7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/.vs/ConsoleApp1/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/.vs/ConsoleApp1/FileContentIndex/04145f79-4a65-4b96-957b-af9780fbcfbd.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/.vs/ConsoleApp1/FileContentIndex/0e4426bf-e37a-4f6f-a983-bd4edef85457.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/.vs/ConsoleApp1/FileContentIndex/2dd08a4f-cf44-4186-8d9e-dd5c3d614d88.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/.vs/ConsoleApp1/FileContentIndex/4f503329-ee38-4738-a4ec-671adaedbe02.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/.vs/ConsoleApp1/FileContentIndex/7b5ad649-9a8f-4f07-9a24-a2ed82e7d8a5.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/.vs/ConsoleApp1/FileContentIndex/d70e5943-85f3-4807-b3aa-155a6963cfbe.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/.vs/ConsoleApp1/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/.vs/ConsoleApp1/v17/.futdcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/.vs/ConsoleApp1/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/.vs/ProjectEvaluation/consoleapp1.metadata.v6.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/.vs/ProjectEvaluation/consoleapp1.projects.v6.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/MyMethod1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/obj/Debug/net6.0/ConsoleApp1.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp1/ConsoleApp1/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCDecauxClient/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCDecauxClient/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCDecauxClient/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCDecauxClient/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCDecauxClient/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCDecauxClient/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCDecauxClient/.idea/sonarlint/issuestore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCDecauxClient/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCDecauxClient/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCDecauxClient/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCDecauxClient/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MapViewer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SoapClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSoapClient/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSoapClient/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSoapClient/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSoapClient/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSoapClient/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSoapClient/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSoapClient/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSoapClient/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSoapClient/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSoapClient/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSoapClient/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSoapClient/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/1b3a0e5c-7ab9-47e4-8cd8-e3630f5bb88d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/2bffa9e3-dc03-4d93-912c-210a0606f69a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/35ed628b-c2b2-468b-b217-e877993f18cf.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/36d0ceb3-389c-495e-b19a-bdc19e521bf0.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/38a17ff9-eac9-4904-9ddf-7832457f10b2.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/3f4fd3df-3fe9-43de-9281-d84c309c691a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/483e543b-5e3e-481b-87dc-d548d84d2a60.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/4c2cae26-cc79-4d85-8379-e8889c111ee2.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/4e00bad9-6284-4e19-ae4a-fb86c56ebeab.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/58c975bd-ab96-47ab-961d-d926afff1687.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/66b5f183-5d4f-44c5-9269-8a23004e14bc.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/72ae6f14-41a3-4cdf-8f93-22b71225dbea.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/7bc6cc2b-e8e4-4894-abf8-850182f40bbe.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/83032dcb-4923-4264-ad39-0248209f9ef3.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/8538eb6d-8707-4274-b855-2c018190fc88.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/8ac9de02-f884-4d1b-99a4-8169ee998019.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/8cb65285-8bcb-427d-9f01-6088a064039a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/91b8d11e-2776-4947-975d-0d807e8d7d39.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/a785b0a1-3c01-4bd4-b040-96662853eea3.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/aa7a9811-cbd0-48ec-aead-be929e0f8dd3.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/acbc11c3-436a-4a74-9410-b91391dc8881.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/bd33164b-45aa-48ac-b4bf-32e5eee72b79.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/c1c78418-b701-49ff-abc9-49d00ac4898a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/d16dfe0d-5264-40b2-82fe-971a28c84068.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/d573ab50-1708-4731-b46c-1b398a22b7ea.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/e0de7672-97b9-4541-b15a-f1d7b3699d9a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/e325149e-a563-4e4c-ac01-28d44da10e4b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/e6dcfb07-21aa-4986-8374-a3f781dfe319.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/ed16b8b1-6d12-49f5-a480-67cb1fe8197d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/fef5f848-195a-4405-960c-d016a59bf036.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/ff96afe4-3cec-4919-a718-c95171ac9ec4.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/v17/.futdcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/BasicExamplesTP2/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/ProjectEvaluation/basicexamplestp2.metadata.v6.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/ProjectEvaluation/basicexamplestp2.projects.v6.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/TD1/FileContentIndex/30a4a2b0-89c9-44d9-bd60-25d651bee3e2.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/TD1/FileContentIndex/d391547d-d617-45d2-aa94-079a6dab3079.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/TD1/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/TD1/v17/.wsuo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicExamplesTP2.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/BasicWebServerUrlParser.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/BasicWebServerUrlParser.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/bin/Debug/BasicWebServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/bin/Debug/BasicWebServer.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/bin/Debug/BasicWebServer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/bin/Debug/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/bin/Debug/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/obj/Debug/BasicWebServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/obj/Debug/BasicWebServer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/obj/Debug/BasicWebServerUrlParser.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/obj/Debug/BasicWebServerUrlParser.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/obj/Debug/BasicWebServerUrlParser.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/obj/Debug/BasicWebServerUrlParser.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/obj/Debug/BasicWebServerUrlParser.csproj.SuggestedBindingRedirects.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/obj/Debug/build.force" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/BasicWebServer/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/Client.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/bin/Debug/net6.0/Client.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/bin/Debug/net6.0/Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/bin/Debug/net6.0/Client.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/bin/Debug/net6.0/Client.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/bin/Debug/net6.0/Client.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/bin/Debug/net6.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Client.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Client.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Client.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/Client.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/Client.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/Client.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/Client.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/Client.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/Client.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/Client.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/Client.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/Client.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/Client.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/Client.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/Client.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/ref/Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/Debug/net6.0/refint/Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/Client/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/ExecTest.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/bin/Debug/ExecTest.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/bin/Debug/ExecTest.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/bin/Debug/ExecTest.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/obj/Debug/ExecTest.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/obj/Debug/ExecTest.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/obj/Debug/ExecTest.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/obj/Debug/ExecTest.csproj.SuggestedBindingRedirects.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/obj/Debug/ExecTest.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExecTest/obj/Debug/ExecTest.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/ExternalExeCall.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/bin/Debug/ExternalExeCall.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/bin/Debug/ExternalExeCall.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/bin/Debug/ExternalExeCall.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/obj/Debug/ExternalExeCall.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/obj/Debug/ExternalExeCall.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/obj/Debug/ExternalExeCall.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/obj/Debug/ExternalExeCall.csproj.SuggestedBindingRedirects.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/obj/Debug/ExternalExeCall.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ExternalExeCall/obj/Debug/ExternalExeCall.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/GenerateHTML.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/bin/Debug/net6.0/GenerateHTML.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/bin/Debug/net6.0/GenerateHTML.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/bin/Debug/net6.0/GenerateHTML.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/bin/Debug/net6.0/GenerateHTML.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/bin/Debug/net6.0/GenerateHTML.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/GenerateHTML.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/GenerateHTML.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/GenerateHTML.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/GenerateHTML.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/GenerateHTML.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/GenerateHTML.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/GenerateHTML.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/GenerateHTML.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/GenerateHTML.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/GenerateHTML.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/GenerateHTML.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/GenerateHTML.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/ref/GenerateHTML.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/Debug/net6.0/refint/GenerateHTML.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/GenerateHTML.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/GenerateHTML.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/GenerateHTML.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/GenerateHTML/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/ReflectionSample.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/bin/Debug/ReflectionSample.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/bin/Debug/ReflectionSample.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/bin/Debug/ReflectionSample.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/obj/Debug/ReflectionSample.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/obj/Debug/ReflectionSample.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/obj/Debug/ReflectionSample.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/obj/Debug/ReflectionSample.csproj.SuggestedBindingRedirects.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/obj/Debug/ReflectionSample.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/ReflectionSample/obj/Debug/ReflectionSample.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/SolutionTD1/.vs/SolutionTD1/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/SolutionTD1/SolutionTD1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/Newtonsoft.Json.13.0.3.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/net20/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/net20/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/net35/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/net35/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/net40/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/net40/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/net45/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/net45/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/net6.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/net6.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/netstandard1.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/netstandard1.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/netstandard1.3/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/netstandard1.3/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD1/packages/Newtonsoft.Json.13.0.3/packageIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/.vs/TD2/FileContentIndex/07219c76-4f97-47fc-813e-37b2c4dfaf75.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/.vs/TD2/FileContentIndex/1c413cf1-157a-4bb7-947e-78e868c7c0fa.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/.vs/TD2/FileContentIndex/8eeca022-63e5-41d9-b6d7-5e6b97b227e5.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/.vs/TD2/FileContentIndex/ff98434a-c1a0-4822-a4d0-a7ca16c720a6.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/.vs/TD2/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/.vs/TD2/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/RESTClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/RESTClient.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/bin/Debug/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/bin/Debug/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/bin/Debug/TD2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/bin/Debug/TD2.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/bin/Debug/TD2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/obj/Debug/RESTClient.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/obj/Debug/RESTClient.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/obj/Debug/RESTClient.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/obj/Debug/RESTClient.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/obj/Debug/RESTClient.csproj.SuggestedBindingRedirects.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/obj/Debug/TD2.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/obj/Debug/TD2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/obj/Debug/TD2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/TD2/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/Connected Services/CalculatorServiceReference/Reference.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/Connected Services/CalculatorServiceReference/Reference.svcmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/Connected Services/CalculatorServiceReference/calculator.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/Connected Services/CalculatorServiceReference/configuration.svcinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/Connected Services/CalculatorServiceReference/configuration91.svcinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/SoapClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/WS-SOAPClient.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/bin/Debug/WS-SOAPClient.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/bin/Debug/WS-SOAPClient.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/bin/Debug/WS-SOAPClient.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/obj/Debug/TempPE/Connected Services.CalculatorServiceReference.Reference.cs.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/obj/Debug/WS-SOAPClient.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/obj/Debug/WS-SOAPClient.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/obj/Debug/WS-SOAPClient.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/obj/Debug/WS-SOAPClient.csproj.SuggestedBindingRedirects.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/obj/Debug/WS-SOAPClient.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/WS-SOAPClient/obj/Debug/WS-SOAPClient.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/Newtonsoft.Json.13.0.3.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/net20/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/net20/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/net35/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/net35/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/net40/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/net40/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/net45/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/net45/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/net6.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/net6.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/netstandard1.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/netstandard1.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/netstandard1.3/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/netstandard1.3/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD2/packages/Newtonsoft.Json.13.0.3/packageIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/.vs/RoutingService/FileContentIndex/04d0edd2-7597-48cb-ae53-1cb514d551e1.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/.vs/RoutingService/FileContentIndex/162d7c7f-8fb4-4ebc-b0f8-6517b303caec.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/.vs/RoutingService/FileContentIndex/4e3c5ce0-dac9-46e5-bd99-dd8bb8d578da.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/.vs/RoutingService/FileContentIndex/afb0b6b9-c92c-4415-a9cc-49db6cf5ab87.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/.vs/RoutingService/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/.vs/RoutingService/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/ConsoleApp1.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/OSMClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/bin/Debug/ConsoleApp1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/bin/Debug/ConsoleApp1.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/bin/Debug/ConsoleApp1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/bin/Debug/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/bin/Debug/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/obj/Debug/ConsoleApp1.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/obj/Debug/ConsoleApp1.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/obj/Debug/ConsoleApp1.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/obj/Debug/ConsoleApp1.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/obj/Debug/ConsoleApp1.csproj.SuggestedBindingRedirects.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/obj/Debug/ConsoleApp1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/obj/Debug/ConsoleApp1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/ConsoleApp1/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/GraphHopperClient.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/bin/Debug/GraphHopperClient.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/bin/Debug/GraphHopperClient.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/bin/Debug/GraphHopperClient.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/bin/Debug/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/bin/Debug/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/obj/Debug/GraphHopperClient.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/obj/Debug/GraphHopperClient.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/obj/Debug/GraphHopperClient.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/obj/Debug/GraphHopperClient.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/obj/Debug/GraphHopperClient.csproj.SuggestedBindingRedirects.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/obj/Debug/GraphHopperClient.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/obj/Debug/GraphHopperClient.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/GraphHopperClient/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/ExternalClients/GraphHopperClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/ExternalClients/OSMClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/IRoutingService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/RoutingService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/RoutingService.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/RoutingService.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/TextFile1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/bin/Debug/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/bin/Debug/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/bin/Debug/RoutingService.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/bin/Debug/RoutingService.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/bin/Debug/RoutingService.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/model/Contract.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/model/Position.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/model/Station.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/obj/Debug/RoutingService.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/obj/Debug/RoutingService.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/obj/Debug/RoutingService.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/obj/Debug/RoutingService.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/obj/Debug/RoutingService.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/obj/Debug/RoutingService.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/obj/Debug/WcfConfigValidationData.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/RoutingService/util/RoutePositionCalculator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/Newtonsoft.Json.13.0.3.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/net20/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/net20/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/net35/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/net35/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/net40/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/net40/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/net45/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/net45/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/net6.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/net6.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/netstandard1.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/netstandard1.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/netstandard1.3/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/netstandard1.3/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/RoutingService/packages/Newtonsoft.Json.13.0.3/packageIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/04abb6dd-eb62-4b21-841a-dc157f72aed9.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/07176634-690e-4d35-8c09-3e2919a7014b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/080cd7ee-5daf-4c3e-aee0-3a75d881e63d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/0ded3e7f-07a5-42e3-8a72-1beceafcb5db.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/10e6254a-0827-4de8-902f-3e3d31c668d3.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/15b544b3-fc4c-4984-8d77-4cb81a031c3f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/17774090-daff-4aa8-8aa3-063c0b95ec9a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/2299a61e-3df9-4bc7-ab22-5146689c3422.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/23ee7017-33ea-4991-93fa-7332cca8b0e1.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/265750bd-6030-4a7b-9e6e-b94594de164e.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/2e32cff5-eb59-45c9-96ad-285016a709f0.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/3297784e-2984-4997-b390-6a60e41b22bd.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/34b75a6f-318b-4dcd-ac95-abbbf2b8a1c9.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/4256410b-aef4-4880-a6b8-de16ef123343.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/48b39fe0-e1c6-49cb-a786-13648aae983b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/4d9151d0-1804-4267-b2e7-b05570fe4b46.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/513f8c28-3b5e-4880-97fc-cf071d74367a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/56c31ebf-e089-4827-a317-15c0ad17fcca.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/5825a464-57d9-4576-b21f-8e07dba9bfe8.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/59a58c3a-3aa2-4b3b-8ac3-a0f41aa64643.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/646ae50a-8a5e-4083-9876-82b97a976883.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/675b4236-d745-4eb2-ac7a-7ff214a37190.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/68cd3931-9fc7-427e-a2be-91255d5595d3.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/7efb65cf-f2c7-4718-8f4b-c0c8c946ffd2.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/81dddfff-72e2-4400-863b-c8b1dd2bd345.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/85f8c940-187e-410f-bb37-1d39650ae8fe.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/874bb134-d6b5-4f7c-87e6-f9d0b3e68c46.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/8b24c497-8bb7-41be-8692-6c5301ff6970.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/8c414d5c-b36a-44b1-bb57-de47d8ea7cbe.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/8d8ccf06-998e-42d5-b884-96603f897b9c.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/92c38382-4aa6-4abc-a300-e63ffd0a790b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/95b981eb-9cc0-4123-bd4b-66838de42cd3.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/98114946-aa94-471a-8504-b15c5a8f7508.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/98983734-7508-43e7-a1f1-2e029e01a852.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/9e0d3dca-e84e-4e29-9a65-8594b6cfdee2.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/9f214c55-1edd-483a-afe4-20e708de0a36.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/b181bb02-be7a-4ad3-b7b9-a18f2653f048.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/b1b12333-f09a-4d04-a600-86db8abdbd09.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/b212a483-c430-4918-81eb-ac37606b0eda.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/b52fd7e9-231a-4821-8bd5-7f107be52e0b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/bd4fb8c7-7aa2-4b63-90f8-1801a57158f2.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/bf1b3f24-0934-4566-9a7f-fdc17023bec8.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/c1ea74a1-ad36-43f9-8a5a-7ce207daa392.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/c3e7a409-00b9-4638-9d75-e32630f318bd.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/c7896ea7-512e-42a6-b849-e6bf47704aa6.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/c8267899-422f-45d7-af0f-a4cad4bc0765.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/cb310815-a5bf-4a61-8b46-0d8192b10f61.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/cce6e51b-bf1b-477d-be85-d62a5dbc7fe6.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/cf02bcfd-e3b8-424c-a55c-aadc46992371.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/d163da68-7bab-45c1-bec7-ce8fa41fcd72.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/d82f26a0-7246-4e6b-adc1-04e1d3828a03.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/e6f7d7dc-505f-402d-a0e1-459764519e1e.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/e711ee2e-64ad-44e3-b172-ef44e6ba2e56.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/e9b0c672-17be-4c80-9cf1-e8b641452650.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/e9e27fcd-cbf9-4f03-9861-5a448bf338ef.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/ee02c87e-7687-4767-87d4-5b3379bc20e0.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/f0068cdd-3d6e-4fa9-b1e3-1fdf1fd9abbb.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/f76d8e01-8687-43da-9c73-99aebbc7e816.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/f7e46d2f-d7f6-479c-b3a3-89414b79f13c.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/fbaac010-830e-49d7-92d6-a5a2a0e6977f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/ff5395ca-adde-4ac6-9e85-78309c17f5d4.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/SOAPServer/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/Servers/FileContentIndex/b5b5571b-e7e3-4474-9181-c299c475beef.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/Servers/FileContentIndex/read.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/.vs/Servers/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/IMathsOperations.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/MathsLibrary.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/MathsLibrary.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/MathsOperations.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/bin/Debug/MathsLibrary.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/bin/Debug/MathsLibrary.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/bin/Debug/MathsLibrary.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/obj/Debug/MathsLibrary.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/obj/Debug/MathsLibrary.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/obj/Debug/MathsLibrary.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/obj/Debug/MathsLibrary.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/obj/Debug/MathsLibrary.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibrary/obj/Debug/WcfConfigValidationData.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/Connected Services/MathsLibraryReference/Reference.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/Connected Services/MathsLibraryReference/Reference.svcmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/Connected Services/MathsLibraryReference/configuration.svcinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/Connected Services/MathsLibraryReference/configuration91.svcinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/Connected Services/MathsLibraryReference/service.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/Connected Services/MathsLibraryReference/service.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/Connected Services/MathsLibraryReference/service1.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/MathsLibraryClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/MathsLibraryClient.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/bin/Debug/MathsLibraryClient.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/bin/Debug/MathsLibraryClient.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/bin/Debug/MathsLibraryClient.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/obj/Debug/MathsLibraryClient.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/obj/Debug/MathsLibraryClient.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/obj/Debug/MathsLibraryClient.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/obj/Debug/MathsLibraryClient.csproj.SuggestedBindingRedirects.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/obj/Debug/MathsLibraryClient.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/obj/Debug/MathsLibraryClient.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryClient/obj/Debug/TempPE/Connected Services.MathsLibraryReference.Reference.cs.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/IMathsOperationsRest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/MathsLibraryREST.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/MathsLibraryREST.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/MathsOperationsRest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/bin/Debug/MathsLibraryREST.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/bin/Debug/MathsLibraryREST.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/bin/Debug/MathsLibraryREST.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/obj/Debug/MathsLibraryREST.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/obj/Debug/MathsLibraryREST.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/obj/Debug/MathsLibraryREST.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/obj/Debug/MathsLibraryREST.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/obj/Debug/MathsLibraryREST.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryREST/obj/Debug/WcfConfigValidationData.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryRESTClient/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryRESTClient/MathsLibraryRESTClient.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryRESTClient/MathsLibraryRestClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryRESTClient/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryRESTClient/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryRESTClient/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryRESTClient/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/MathsLibraryRESTClient/obj/Debug/MathsLibraryRESTClient.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPClient/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPClient/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPClient/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPClient/SOAPClient.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPClient/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPClient/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPClient/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPClient/obj/Debug/SOAPClient.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/IMathsOperations.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/MathsOperations.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/SOAPServer.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/SOAPServer.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/bin/Debug/SOAPServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/bin/Debug/SOAPServer.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/bin/Debug/SOAPServer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/obj/Debug/SOAPServer.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/obj/Debug/SOAPServer.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/obj/Debug/SOAPServer.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/obj/Debug/SOAPServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/obj/Debug/SOAPServer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/SOAPServer/obj/Debug/WcfConfigValidationData.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TD3/Servers/Servers.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webFront/helper/exercise2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webFront/helper/exercise2/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webFront/helper/exercise2/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webFront/materials/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webFront/materials/.idea/materials.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webFront/materials/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webFront/materials/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webFront/materials/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webFront/materials/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webFront/materials/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webFront/solution/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webFront/solution/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webFront/solution/main.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2YLR9zDVAG2KIxOV4PhecA8vrRc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d4ca066-14c0-43b7-a14f-3bf82f5ccfe7" name="Changes" comment="" />
+      <created>1700302727317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700302727317</updated>
+      <workItem from="1700302728316" duration="9200000" />
+      <workItem from="1700330905423" duration="6904000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

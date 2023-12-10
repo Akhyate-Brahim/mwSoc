@@ -36,13 +36,7 @@ public class RoutePlanningController {
     }
 
     private void setUpListeners() {
-        inputView.getConfirmButton().addActionListener(e -> {
-            try {
-                onConfirmButtonClicked();
-            } catch (IOException ex) {
-                throw new RuntimeException(ex);
-            }
-        });
+        inputView.getConfirmButton().addActionListener(e -> onConfirmButtonClicked());
         inputView.getConfirmButtonApacheMQ().addActionListener(e -> {
             try {
                 onConfirmMQButtonClicked();
@@ -50,8 +44,15 @@ public class RoutePlanningController {
                 throw new RuntimeException(ex);
             }
         });
+        mapView.getBackButton().addActionListener(e -> onBackButtonClicked());
     }
-    private void onConfirmButtonClicked() throws IOException {
+
+    private void onBackButtonClicked() {
+        mainFrame.changeView(inputView);
+    }
+
+
+    private void onConfirmButtonClicked() {
         List<CustomRouteSegment> routeSegments = Converter.convertArrayOfRouteSegments(routingService.getItinerary(inputView.getDepartureAddress(), inputView.getArrivalAddress()));
         List<GeoPosition> checkpoints = new ArrayList<>();
         if (!routeSegments.isEmpty()) {

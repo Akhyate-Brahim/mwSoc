@@ -35,29 +35,29 @@ public class InputView extends JPanel {
         gbc.insets = new Insets(5, 5, 5, 5);
         add(departureLabel, gbc);
 
-// Layout constraints for departure text field
+        // Layout constraints for departure text field
         gbc.gridx = 1;
         gbc.gridy = 0;
         add(departureAddressField, gbc);
 
-// Layout constraints for arrival label
+        // Layout constraints for arrival label
         gbc.gridx = 0;
         gbc.gridy = 1;
         add(arrivalLabel, gbc);
 
-// Layout constraints for arrival text field
+        // Layout constraints for arrival text field
         gbc.gridx = 1;
         gbc.gridy = 1;
         add(arrivalAddressField, gbc);
 
-// Layout constraints for confirmButton
+        // Layout constraints for confirmButton
         gbc.gridx = 0; // X position
         gbc.gridy = 2; // Y position (below the text fields)
         gbc.gridwidth = 2; // Span across 2 columns
         gbc.anchor = GridBagConstraints.CENTER;
         add(confirmButton, gbc);
 
-// Layout constraints for confirmButtonApacheMQ
+        // Layout constraints for confirmButtonApacheMQ
         gbc.gridx = 0; // X position
         gbc.gridy = 3; // Y position (below the confirmButton)
         gbc.gridwidth = 2; // Span across 2 columns
