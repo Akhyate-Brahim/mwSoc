@@ -1,7 +1,0 @@
-C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapMain\bin\Debug\BasicSoapMain.exe.config
-C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapMain\bin\Debug\BasicSoapMain.exe
-C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapMain\bin\Debug\BasicSoapMain.pdb
-C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapMain\obj\Debug\BasicSoapMain.csproj.AssemblyReference.cache
-C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapMain\obj\Debug\BasicSoapMain.csproj.CoreCompileInputs.cache
-C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapMain\obj\Debug\BasicSoapMain.exe
-C:\Users\Ben\source\repos\BasicSoapWCF\BasicSoapMain\obj\Debug\BasicSoapMain.pdb

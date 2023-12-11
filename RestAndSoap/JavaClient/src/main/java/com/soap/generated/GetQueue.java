@@ -34,8 +34,8 @@ import javax.xml.bind.annotation.XmlType;
     "departure",
     "destination"
 })
-@XmlRootElement(name = "GetItinerary")
-public class GetItinerary {
+@XmlRootElement(name = "getQueue")
+public class GetQueue {
 
     @XmlElementRef(name = "departure", namespace = "http://tempuri.org/", type = JAXBElement.class, required = false)
     protected JAXBElement<String> departure;

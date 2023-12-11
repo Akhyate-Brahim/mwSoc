@@ -59,6 +59,8 @@ public class ObjectFactory {
     private final static QName _GetItineraryDeparture_QNAME = new QName("http://tempuri.org/", "departure");
     private final static QName _GetItineraryDestination_QNAME = new QName("http://tempuri.org/", "destination");
     private final static QName _GetItineraryResponseGetItineraryResult_QNAME = new QName("http://tempuri.org/", "GetItineraryResult");
+    private final static QName _GetQueueResponseGetQueueResult_QNAME = new QName("http://tempuri.org/", "getQueueResult");
+    private final static QName _RequestMoreStepsQueueName_QNAME = new QName("http://tempuri.org/", "queueName");
     private final static QName _StepInstruction_QNAME = new QName("http://schemas.datacontract.org/2004/07/RouteService", "Instruction");
     private final static QName _StepName_QNAME = new QName("http://schemas.datacontract.org/2004/07/RouteService", "Name");
     private final static QName _StepWayPoints_QNAME = new QName("http://schemas.datacontract.org/2004/07/RouteService", "WayPoints");
@@ -94,6 +96,38 @@ public class ObjectFactory {
      */
     public ArrayOfRouteSegment createArrayOfRouteSegment() {
         return new ArrayOfRouteSegment();
+    }
+
+    /**
+     * Create an instance of {@link GetQueue }
+     * 
+     */
+    public GetQueue createGetQueue() {
+        return new GetQueue();
+    }
+
+    /**
+     * Create an instance of {@link GetQueueResponse }
+     * 
+     */
+    public GetQueueResponse createGetQueueResponse() {
+        return new GetQueueResponse();
+    }
+
+    /**
+     * Create an instance of {@link RequestMoreSteps }
+     * 
+     */
+    public RequestMoreSteps createRequestMoreSteps() {
+        return new RequestMoreSteps();
+    }
+
+    /**
+     * Create an instance of {@link RequestMoreStepsResponse }
+     * 
+     */
+    public RequestMoreStepsResponse createRequestMoreStepsResponse() {
+        return new RequestMoreStepsResponse();
     }
 
     /**
@@ -545,6 +579,58 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://tempuri.org/", name = "GetItineraryResult", scope = GetItineraryResponse.class)
     public JAXBElement<ArrayOfRouteSegment> createGetItineraryResponseGetItineraryResult(ArrayOfRouteSegment value) {
         return new JAXBElement<ArrayOfRouteSegment>(_GetItineraryResponseGetItineraryResult_QNAME, ArrayOfRouteSegment.class, GetItineraryResponse.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "http://tempuri.org/", name = "departure", scope = GetQueue.class)
+    public JAXBElement<String> createGetQueueDeparture(String value) {
+        return new JAXBElement<String>(_GetItineraryDeparture_QNAME, String.class, GetQueue.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "http://tempuri.org/", name = "destination", scope = GetQueue.class)
+    public JAXBElement<String> createGetQueueDestination(String value) {
+        return new JAXBElement<String>(_GetItineraryDestination_QNAME, String.class, GetQueue.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "http://tempuri.org/", name = "getQueueResult", scope = GetQueueResponse.class)
+    public JAXBElement<String> createGetQueueResponseGetQueueResult(String value) {
+        return new JAXBElement<String>(_GetQueueResponseGetQueueResult_QNAME, String.class, GetQueueResponse.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "http://tempuri.org/", name = "queueName", scope = RequestMoreSteps.class)
+    public JAXBElement<String> createRequestMoreStepsQueueName(String value) {
+        return new JAXBElement<String>(_RequestMoreStepsQueueName_QNAME, String.class, RequestMoreSteps.class, value);
     }
 
     /**

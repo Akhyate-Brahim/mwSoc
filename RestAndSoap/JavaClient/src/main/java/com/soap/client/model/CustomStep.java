@@ -1,13 +1,26 @@
 package com.soap.client.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.List;
 
 public class CustomStep {
+    @JsonProperty("Distance")
     private Double distance;
+
+    @JsonProperty("Duration")
     private Double duration;
+
+    @JsonProperty("Instruction")
     private String instruction;
+
+    @JsonProperty("Name")
     private String name;
+
+    @JsonProperty("Type")
     private Integer type;
+
+    @JsonProperty("way_points")
     private List<Integer> wayPoints;
 
     public Double getDistance() {

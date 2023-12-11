@@ -31,7 +31,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "RouteSegment", propOrder = {
+@XmlType(name = "RouteSegment", namespace = "http://schemas.datacontract.org/2004/07/RouteService", propOrder = {
     "distance",
     "duration",
     "routePositions",

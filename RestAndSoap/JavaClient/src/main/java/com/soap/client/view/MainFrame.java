@@ -12,7 +12,8 @@ public class MainFrame extends JFrame {
     public void changeView(JPanel newView) {
         getContentPane().removeAll();
         getContentPane().add(newView);
-        getContentPane().doLayout();
-        update(getGraphics());
+        getContentPane().revalidate();
+        getContentPane().repaint();
     }
+
 }

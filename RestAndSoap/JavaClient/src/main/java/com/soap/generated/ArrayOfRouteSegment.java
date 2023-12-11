@@ -29,7 +29,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ArrayOfRouteSegment", propOrder = {
+@XmlType(name = "ArrayOfRouteSegment", namespace = "http://schemas.datacontract.org/2004/07/RouteService", propOrder = {
     "routeSegment"
 })
 public class ArrayOfRouteSegment {

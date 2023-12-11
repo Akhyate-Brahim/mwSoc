@@ -34,7 +34,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "Step", propOrder = {
+@XmlType(name = "Step", namespace = "http://schemas.datacontract.org/2004/07/RouteService", propOrder = {
     "distance",
     "duration",
     "instruction",

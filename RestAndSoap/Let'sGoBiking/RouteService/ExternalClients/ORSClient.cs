@@ -15,6 +15,8 @@ namespace RouteService.ExternalClients
         static HttpClient client = new HttpClient();
         private const string baseUrl = "https://api.openrouteservice.org/v2/directions/";
         private const string apiKey = "5b3ce3597851110001cf6248f46b99f27a9b4851896d308b7a039734";
+        private static Dictionary<string, (RouteSegment route, DateTime timestamp)> routeCache = new Dictionary<string, (RouteSegment, DateTime)>();
+        private static TimeSpan cacheTTL = TimeSpan.FromMinutes(30);
 
         static ORSClient()
         {
@@ -24,6 +26,19 @@ namespace RouteService.ExternalClients
 
         public static async Task<RouteSegment> GetRoute(string startLocation, string endLocation, string transportMode)
         {
+            string cacheKey = $"{startLocation}-{endLocation}-{transportMode}";
+            if (routeCache.ContainsKey(cacheKey))
+            {
+                var cacheEntry = routeCache[cacheKey];
+                if (DateTime.UtcNow - cacheEntry.timestamp < cacheTTL)
+                {
+                    // Return cached data if it's still valid
+                    return cacheEntry.route;
+                }
+                // Remove old cache entry if TTL has expired
+                routeCache.Remove(cacheKey);
+            }
+
             HttpResponseMessage response = await client.GetAsync($"{baseUrl}{transportMode}?start={startLocation}&end={endLocation}");
             response.EnsureSuccessStatusCode();
             string responseBody = await response.Content.ReadAsStringAsync();
@@ -52,6 +67,7 @@ namespace RouteService.ExternalClients
                 distance = distancia,
                 duration = time
             };
+            routeCache[cacheKey] = (routeinfo, DateTime.UtcNow);
             return routeinfo;
         }
         public static async Task<double> GetDistance(Position start, Position end, string transportMode)

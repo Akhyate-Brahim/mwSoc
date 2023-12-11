@@ -8,39 +8,62 @@ namespace RouteService
     internal class MessageQueueManager : IDisposable
     {
         private ConnectionFactory connectionFactory;
-        private Uri brokerUri;
         private IConnection connection;
+        private ISession session;
+        private Dictionary<string, IMessageProducer> producers = new Dictionary<string, IMessageProducer>();
 
         public MessageQueueManager(string brokerString)
         {
-            brokerUri = new Uri(brokerString);
+            Uri brokerUri = new Uri(brokerString);
             connectionFactory = new ConnectionFactory(brokerUri);
             connection = connectionFactory.CreateConnection();
             connection.Start();
+            session = connection.CreateSession();
         }
 
-        public void Send(string queueName, List<string> serializedMessages)
+        public IMessageProducer CreateProducer(string queueName)
         {
-            // Create a session and a producer
-            var session = connection.CreateSession();
-            var destination = session.GetQueue(queueName);
-            var producer = session.CreateProducer(destination);
-            producer.DeliveryMode = MsgDeliveryMode.NonPersistent;
-
-            // Send each message
-            foreach (var serializedMessage in serializedMessages)
+            if (producers.TryGetValue(queueName, out var existingProducer))
             {
-                var message = session.CreateTextMessage(serializedMessage);
-                producer.Send(message);
+                return existingProducer;
             }
 
-            // Close the producer and session
-            producer.Close();
-            session.Close();
+            var destination = session.GetQueue(queueName);
+            var producer = session.CreateProducer(destination);
+            producer.DeliveryMode = MsgDeliveryMode.Persistent;
+            producers[queueName] = producer;
+
+            return producer;
         }
+
+        public void Send(string queueName, List<string> serializedMessages, IMessageProducer producer)
+        {
+            try
+            {
+                var destination = session.GetQueue(queueName);
+
+                foreach (var serializedMessage in serializedMessages)
+                {
+                    var message = session.CreateTextMessage(serializedMessage);
+                    producer.Send(message);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
         public void Dispose()
         {
-            connection.Close();
+            // Dispose all producers
+            foreach (var producer in producers.Values)
+            {
+                producer.Close();
+            }
+
+            session?.Close();
+            connection?.Close();
         }
     }
 }

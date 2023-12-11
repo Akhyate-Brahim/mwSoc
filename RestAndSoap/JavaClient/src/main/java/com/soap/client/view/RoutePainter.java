@@ -27,22 +27,28 @@ public class RoutePainter implements Painter<JXMapViewer> {
         g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 
         Color onFootColor = Color.RED;
-        Color onBikeColor = Color.magenta;
+        Color onBikeColor = Color.GREEN;
         Color currentColor = onFootColor;
 
-        // If only two checkpoints are present, we assume the entire route is on foot
         boolean isMonoRoute = checkPoints.size() == 2;
+        boolean isDualRoute = checkPoints.size() == 3;
 
         for (int i = 1; i < route.size(); i++) {
             GeoPosition gp = route.get(i);
             Point2D point = map.getTileFactory().geoToPixel(gp, map.getZoom());
             Point2D prevPoint = map.getTileFactory().geoToPixel(route.get(i - 1), map.getZoom());
 
-            // If it's a mono route, we keep the onFootColor throughout
             if (isMonoRoute) {
                 currentColor = onFootColor;
+            } else if (isDualRoute) {
+                // Check if the current point or the previous point is the first checkpoint
+                if (gp.equals(checkPoints.get(1)) || route.get(i - 1).equals(checkPoints.get(1))) {
+                    currentColor = onBikeColor;
+                } else {
+                    currentColor = onFootColor;
+                }
             } else {
-                // If more than two checkpoints, determine the color based on the position in the route
+                // Existing logic for more than two checkpoints
                 if (route.get(i - 1).equals(checkPoints.get(1)) || gp.equals(checkPoints.get(2))) {
                     currentColor = onBikeColor;
                 } else if (gp.equals(checkPoints.get(1)) || route.get(i - 1).equals(checkPoints.get(2))) {
@@ -58,5 +64,6 @@ public class RoutePainter implements Painter<JXMapViewer> {
 
         g.dispose();
     }
+
 
 }

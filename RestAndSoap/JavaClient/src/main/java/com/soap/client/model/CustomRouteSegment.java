@@ -1,12 +1,22 @@
 package com.soap.client.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.soap.client.util.GeoPositionDeserializer;
 import org.jxmapviewer.viewer.GeoPosition;
 import java.util.List;
 
 public class CustomRouteSegment {
+    @JsonProperty("distance")
     private Double distance;
+
+    @JsonProperty("duration")
     private Double duration;
+
+    @JsonDeserialize(contentUsing = GeoPositionDeserializer.class)
     private List<GeoPosition> routePositions;
+
+    @JsonProperty("steps")
     private List<CustomStep> steps;
     public CustomRouteSegment() {
     }

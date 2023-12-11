@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
 using System.ServiceModel.Description;
+using Apache.NMS.ActiveMQ;
+using Apache.NMS;
+using System.Threading;
 
 namespace RouteService
 {
@@ -29,11 +32,6 @@ namespace RouteService
 
             Console.WriteLine("Service is host at " + httpUrl);
             Console.WriteLine("Host is running... Press <Enter> key to stop");
-            List<RouteSegment> route = await routingService.GetItinerary("3 rue soutrane valbonne", "la tour eiffel");
-            foreach(RouteSegment routeSegment in route)
-            {
-                Console.WriteLine(routeSegment.ToString());
-            }
             Console.ReadLine();
         }
     }

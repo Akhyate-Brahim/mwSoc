@@ -9,5 +9,9 @@ namespace RouteService
     {
         [OperationContract]
         Task<List<RouteSegment>> GetItinerary(string departure, string destination);
+        [OperationContract]
+        Task<string> getQueue(string departure, string destination);
+        [OperationContract]
+        Task RequestMoreSteps(string queueName);
     }
 }

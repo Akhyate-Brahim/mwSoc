@@ -40,4 +40,32 @@ public interface IRoutingService {
         @WebParam(name = "destination", targetNamespace = "http://tempuri.org/")
         String destination);
 
+    /**
+     * 
+     * @param destination
+     * @param departure
+     * @return
+     *     returns java.lang.String
+     */
+    @WebMethod(action = "http://tempuri.org/IRoutingService/getQueue")
+    @WebResult(name = "getQueueResult", targetNamespace = "http://tempuri.org/")
+    @RequestWrapper(localName = "getQueue", targetNamespace = "http://tempuri.org/", className = "com.soap.generated.GetQueue")
+    @ResponseWrapper(localName = "getQueueResponse", targetNamespace = "http://tempuri.org/", className = "com.soap.generated.GetQueueResponse")
+    public String getQueue(
+        @WebParam(name = "departure", targetNamespace = "http://tempuri.org/")
+        String departure,
+        @WebParam(name = "destination", targetNamespace = "http://tempuri.org/")
+        String destination);
+
+    /**
+     * 
+     * @param queueName
+     */
+    @WebMethod(operationName = "RequestMoreSteps", action = "http://tempuri.org/IRoutingService/RequestMoreSteps")
+    @RequestWrapper(localName = "RequestMoreSteps", targetNamespace = "http://tempuri.org/", className = "com.soap.generated.RequestMoreSteps")
+    @ResponseWrapper(localName = "RequestMoreStepsResponse", targetNamespace = "http://tempuri.org/", className = "com.soap.generated.RequestMoreStepsResponse")
+    public void requestMoreSteps(
+        @WebParam(name = "queueName", targetNamespace = "http://tempuri.org/")
+        String queueName);
+
 }

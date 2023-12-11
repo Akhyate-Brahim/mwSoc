@@ -19,7 +19,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="GetItineraryResult" type="{http://schemas.datacontract.org/2004/07/RouteService}ArrayOfRouteSegment" minOccurs="0"/&gt;
+ *         &lt;element name="getQueueResult" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -30,36 +30,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "getItineraryResult"
+    "getQueueResult"
 })
-@XmlRootElement(name = "GetItineraryResponse")
-public class GetItineraryResponse {
+@XmlRootElement(name = "getQueueResponse")
+public class GetQueueResponse {
 
-    @XmlElementRef(name = "GetItineraryResult", namespace = "http://tempuri.org/", type = JAXBElement.class, required = false)
-    protected JAXBElement<ArrayOfRouteSegment> getItineraryResult;
+    @XmlElementRef(name = "getQueueResult", namespace = "http://tempuri.org/", type = JAXBElement.class, required = false)
+    protected JAXBElement<String> getQueueResult;
 
     /**
-     * Obtient la valeur de la propriété getItineraryResult.
+     * Obtient la valeur de la propriété getQueueResult.
      * 
      * @return
      *     possible object is
-     *     {@link JAXBElement }{@code <}{@link ArrayOfRouteSegment }{@code >}
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
      *     
      */
-    public JAXBElement<ArrayOfRouteSegment> getGetItineraryResult() {
-        return getItineraryResult;
+    public JAXBElement<String> getGetQueueResult() {
+        return getQueueResult;
     }
 
     /**
-     * Définit la valeur de la propriété getItineraryResult.
+     * Définit la valeur de la propriété getQueueResult.
      * 
      * @param value
      *     allowed object is
-     *     {@link JAXBElement }{@code <}{@link ArrayOfRouteSegment }{@code >}
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
      *     
      */
-    public void setGetItineraryResult(JAXBElement<ArrayOfRouteSegment> value) {
-        this.getItineraryResult = value;
+    public void setGetQueueResult(JAXBElement<String> value) {
+        this.getQueueResult = value;
     }
 
 }

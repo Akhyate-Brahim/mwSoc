@@ -25,6 +25,7 @@ public class MapView extends JPanel {
     private List<CustomRouteSegment> routeSegments;
     private List<GeoPosition> checkpoints;
     private JButton backButton;
+    private JButton updateButton;
 
     public MapView(){
 
@@ -62,7 +63,9 @@ public class MapView extends JPanel {
         // Add the back button at the bottom
         JPanel bottomPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
         bottomPanel.add(backButton);
-
+        updateButton = new JButton("Next steps");
+        bottomPanel.add(updateButton);
+        updateButton.setVisible(false);
         this.add(bottomPanel, BorderLayout.SOUTH);
     }
     public void refreshMap() {
@@ -77,9 +80,8 @@ public class MapView extends JPanel {
 
         // checkpoints marking
         Set<Waypoint> waypoints = new HashSet<>();
-        for (GeoPosition checkPoint : checkpoints) {
-            waypoints.add(new DefaultWaypoint(checkPoint));
-        }
+        waypoints.add(new DefaultWaypoint(checkpoints.get(0)));
+        waypoints.add(new DefaultWaypoint(checkpoints.get(checkpoints.size()-1)));
         WaypointPainter<Waypoint> waypointPainter = new WaypointPainter<>();
         waypointPainter.setWaypoints(waypoints);
         CompoundPainter<JXMapViewer> compoundPainter = new CompoundPainter<>();
@@ -106,4 +108,8 @@ public class MapView extends JPanel {
     public JButton getBackButton() {
         return backButton;
     }
+    public JButton getUpdateButton() {
+        return updateButton;
+    }
+
 }
